@@ -1366,3 +1366,5 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
     margin-top: 1.75em;
     font-weight: 600;
 }
+
+div.peopleColumn-29fq28 > div > div > div:nth-child(2) { display: none;}
