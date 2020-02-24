@@ -24,6 +24,7 @@
         --Chatbox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
         --Sidebar: var(--darkgrey5);
+        --HoverMessage: var(--darkgrey5);
 }
 
 .theme-light, .theme-dark {
@@ -522,7 +523,7 @@ svg[style="color: rgb(114, 137, 218);"] {
 }
 
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover {
-        background-color: var(--darkgrey5);
+        background-color: var(--HoverMessage);
 }
 
 .attachWrapper-2TRKBi, .userInfoSection-, .activityPanel-28dQGo, .tabBarContainer-1s1u-z, .userInfoSection-2acyCx {
@@ -2123,3 +2124,7 @@ path[fill="#4f545c"] {
                 content: "...✒️"
         }
 }
+
+.compact-T3H92H, .container-3FojY8, .cozy-3raOZG {
+        border-radius: .25em;
+    }
