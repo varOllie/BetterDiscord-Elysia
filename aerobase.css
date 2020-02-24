@@ -21,7 +21,7 @@
         --darkgrey5: rgba(14, 14, 14, 0.75);
         --version: '0.1.0';
         --temp: var(--rgb1);
-        --ChatBox: var(--darkgrey5);
+        --Chatbox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
         --Sidebar: var(--darkgrey5);
 }
@@ -163,7 +163,7 @@
 }
 
 .chat-3bRxxu, .peopleList-3c4jOR, .container-1D34oG {
-        background: var(--ChatBox)!important;
+        background: var(--Chatbox)!important;
 }
 
 .sidebar-2K8pFh {
