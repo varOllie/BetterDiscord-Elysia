@@ -633,7 +633,7 @@ svg[style="color: rgb(114, 137, 218);"] {
 }
 
 .divider-JfaTT5 {
-        background: radial-gradient(circle, var(--animation), transparent 65%)!important;
+        background: radial-gradient(circle, var(--animation))!important;
         background-size: 1000% 500%!important;
         -webkit-animation: K2KBG var(--time) ease infinite !important;
         animation: K2KBG var(--time) ease infinite !important;
