@@ -469,8 +469,6 @@ svg[style="color: rgb(114, 137, 218);"] {
 
 .clickable-1JJAn8.container-2Pjhx-:hover {
         background-color: var(--grey5)!important;
-        border-left: 1px solid var(--grey);
-        border-right: 1px solid var(--grey);
 }
 
 .member-3-YXUe.selected-aXhQR6 {
@@ -1306,8 +1304,6 @@ div[style*="flex: 0 1 323px"] {
         border-radius: .25em;
         box-shadow: 0 0 12px 1px var(--grey5);
         height: 30px;
-        border-left: 1px solid var(--grey);
-        border-right: 1px solid var(--grey);
 }
 
 .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha, .ui-tab-bar-item.selected {
@@ -1702,8 +1698,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 .wrapper-1ucjTd:hover .content-3at_AU {
         background-color: var(--grey5);
         box-shadow: 0 0 2px 2px var(--grey5);
-        border-left: 1px solid var(--grey);
-        border-right: 1px solid var(--grey);
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
