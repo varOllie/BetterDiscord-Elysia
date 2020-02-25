@@ -2152,22 +2152,25 @@ a.channel-2QD9_O {
         line-height: 48px;
 }
 
+.winButtonClose-1HsbF-:hover::after {
+        color: white;
+}
 
 .winButtonClose-1HsbF-:after {
         content: var(--Close);
         color: var(--Unavailable);
-        text-shadow: 0 0 15px var(--Unavailable);
+        text-shadow: 0 0 15px;
 }
 
 .typeWindows-1za-n7>div:nth-child(4):after {
         content: var(--Hide);
         color: rgb(180, 180, 180);
-        text-shadow: 0 0 15px rgb(180, 180, 180);
+        text-shadow: 0 0 15px;
 }
 
 .typeWindows-1za-n7>div:nth-child(3):after {
         position: absolute;
+        content: var(--Resize);
         color: rgb(0, 102, 255);
         text-shadow: 0 0 15px;
-        content: var(--Resize);
 }
