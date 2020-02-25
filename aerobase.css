@@ -219,24 +219,22 @@
 }
 .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"],
 .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .expandedFolderBackground-2sPsd-, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-        background: -webkit-linear-gradient(90deg, var(--animation))!important;
-        background: linear-gradient(90deg, var(--animation))!important;
+        background: radial-gradient(circle, var(--animation))!important;
         background-size: 500% 500%!important;
-        -webkit-animation: bganim var(--time) ease infinite !important;
-        animation: bganim var(--time) ease infinite !important;
+        -webkit-animation: K2KBG var(--time) ease infinite !important;
+        animation: K2KBG var(--time) ease infinite !important;
 }
 
 .filenameLinkWrapper-1-14c5, .guildName-3WI6ml, .fakeLink-26oLcc, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .activity-11LB_k>.headerText-1HLrL7, .bodyTitle-Y0qMQz, .tabBarItem-1b8RUP[style*="color: rgb(255, 255, 255);"], .topic-TCb_qw a, .addButton-1BORro:before, .operations-36ENbA>a, .embedFooterText-28V_Wb, .h5-18_1nd.title-3sZWYQ.header-2BTCnc:after, .title-1ECcJP:before, .activityProfile-2bJRaP .headerText-1HLrL7, .connectedAccounts-repVzS:before, .activityHeader-1PExlk, .userInfoSectionHeader-CBvMDh, .h2-2gWE-o, .h3-3PDeKG, .unreadPill-2HyYtt, .content-1o0f9g, .wrapper-CU3qI5, .header-2RyJ0Y, .ui-tab-bar-header, .name-IbjUBS, .typeWindows-1za-n7:after, .wrapper-3WhCwL, .membersGroup-v9BXpm, .sidebar-2K8pFh .privateChannels-1nO12o header>span, .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"]:not(:hover), .disableColor-MwOAZf, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .isUnread-3Ef-o9 .content-1o0f9g, .member-3-YXUe.selected-aXhQR6 .activity-3mKQ-i, .akaBadge-1M-1Gw, .channel-2QD9_O.selected-aXhQR6 .activity-3mKQ-i {
-        background: -webkit-linear-gradient(90deg, var(--animation))!important;
-        background: linear-gradient(90deg, var(--animation))!important;
         font-weight: bold!important;
         color: var(--MainColor)!important;
         -webkit-background-clip: text!important;
         background-clip: text!important;
         -webkit-text-fill-color: transparent!important;
+        background: radial-gradient(circle, var(--animation))!important;
         background-size: 500% 500%!important;
-        -webkit-animation: bganim var(--time) ease infinite !important;
-        animation: bganim var(--time) ease infinite !important;
+        -webkit-animation: K2KBG var(--time) ease infinite !important;
+        animation: K2KBG var(--time) ease infinite !important;
         text-shadow: none!important;
 }
 
@@ -632,8 +630,8 @@ svg[style="color: rgb(114, 137, 218);"] {
         opacity: .5;
         margin-bottom: 10px;
         border-radius: 0.5em;
-        background: radial-gradient(circle, var(--animation), transparent 65%)!important;
-        background-size: 200% 300%!important;
+        background: radial-gradient(circle, var(--animation))!important;
+        background-size: 1000% 500%!important;
         -webkit-animation: K2KBG var(--time) ease infinite !important;
         animation: K2KBG var(--time) ease infinite !important;
 }
@@ -663,10 +661,10 @@ svg[style="color: rgb(114, 137, 218);"] {
         margin: 0!important;
         content: "";
         display: block;
-        background: radial-gradient(circle, var(--temp), transparent 65%)!important;
-        background-size: 200% 300%!important;
-        -webkit-animation: K2KBG 2s ease infinite !important;
-        animation: K2KBG 2s ease infinite !important;
+        background: radial-gradient(circle, var(--animation))!important;
+        background-size: 1000% 500%!important;
+        -webkit-animation: K2KBG var(--time) ease infinite !important;
+        animation: K2KBG var(--time) ease infinite !important;
         border: none!important;
         opacity: .65;
         border-radius: .15em;
