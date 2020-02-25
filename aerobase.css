@@ -25,6 +25,21 @@
         --SendMessage: var(--darkgrey);
         --Sidebar: var(--darkgrey5);
         --HoverMessage: var(--darkgrey5);
+        --JoinUS: 'Hey! Wanna have some fun.. Join US !';
+        --AddNewServer: '➕ Add a new server';
+        --Close: '❌';
+        --Resize: '🔵';
+        --Hide: '➖';
+        --ProfilePic: 'Watch me';
+        --Unread: '✨';
+        --Options: '🔧';
+        --Channel: '💬';
+        --Emoji: '🙂';
+        --EmojiHover: '😜';
+        --Community: 'purpies';
+        --WelcomeMessage: 'Theme base designed by Purple Wizard.';
+        --Watermark: 'Made with 💖 by Purple Wizard';
+        --EditStatus: 'Put another status';
 }
 
 .theme-light, .theme-dark {
@@ -101,7 +116,7 @@
 .layers-3iHuyZ {
         position: static;
 }
-
+.pro-1T8RK7,.tip-2ab612,
 .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .chatContent-a9vAAp>form>div>div>div>div.buttons-3JBrkn>button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN, .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discordapp.com"], .icon-1_QxNX, .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
         display: none!important;
 }
@@ -145,6 +160,7 @@
 
 /* BACKGROUND */
 
+.message-2qRu38,
 .footer-1kmXd4, .header-39GIC8, .scroller-2XE8rp, .footer-3rDWdC, .footer-3mqk7D, .scroller-1IIF0A, .nowPlayingColumn-2sl4cE, .folder-21wGz3, .selected-aXhQR6 .layout-2DM8Md, .standardSidebarView-3F1I7i, .ui-tab-bar-separator, .contentRegionScroller-26nc1e, .layer-3QrUeG, .container-1r6BKw.themed-ANHk51, .scroller-1JbKMe, .app-2rEoOp, .scroller-2TZvBN, .wrapper-1Rf91z, .bg-h5JY_x, .container-PNkimc, .messages-3amgkR, .members-1998pB, .channelTextArea-rNsIhG, .panels-j1Uci_, .privateChannels-1nO12o {
         background: transparent!important;
         -webkit-box-shadow: none!important;
@@ -201,7 +217,7 @@
         background: var(--darkgrey)!important;
         border-radius: .25em!important;
 }
-
+.progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"],
 .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .expandedFolderBackground-2sPsd-, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
         background: -webkit-linear-gradient(90deg, var(--animation))!important;
         background: linear-gradient(90deg, var(--animation))!important;
@@ -659,7 +675,7 @@ svg[style="color: rgb(114, 137, 218);"] {
 
 .searchBar-3dMhjb, .search-2oPWTC, .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .container-cMG81i {
         border-radius: .25em;
-        background-color: var(--darkgrey);
+        background-color: transparent;
         border-bottom: 1px solid transparent;
         color: white;
 }
@@ -987,7 +1003,7 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 .welcomeMessage-ULm0mo:after {
-        content: "This theme was made with 💖 by Purple Wizard.";
+        content: var(--WelcomeMessage);
         font-size: 1rem;
         line-height: 1.25rem;
         font-weight: 600;
@@ -1005,13 +1021,13 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 .info-1VyQPT>div:nth-child(3):after {
-        content: "🔮 ÆroSpace v" var(--version) " 🔮";
+        content: "🔮 " var(--title) " v" var(--version) " 🔮";
         font-size: 12px;
         line-height: 12px;
 }
 
 .info-1VyQPT>div:nth-child(4):after {
-        content: "Made with 💖 by Purple Wizard";
+        content: var(--Watermark);
         font-size: 12px;
         line-height: 12px;
 }
@@ -1265,7 +1281,7 @@ div[style*="flex: 0 1 323px"] {
 }
 
 .h5-18_1nd.title-3sZWYQ.header-2BTCnc:after {
-        content: 'Hey! Wanna have some fun.. Join US !';
+        content: var(--JoinUS);
         width: 100%;
         padding: 10px;
         padding-left: 0;
@@ -1419,7 +1435,7 @@ div[style*="flex: 0 1 323px"] {
 }
 
 .refresh-1riPrX .header-3ZP1MY:before {
-        content: "➕ Add a new server";
+        content: var(--AddNewServer);
         text-align: -webkit-center;
         width: 100%;
         height: 5px;
@@ -1567,7 +1583,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .content-3at_AU {
-        margin: 0 0 0 8px;
+        margin: 0 8px;
 }
 
 .actionButton-VzECiy {
@@ -1632,7 +1648,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .guildDetail-1nRKNE.weightMedium-3h9nUm .statusCounts-2qk4EE:after {
-        content: "purpies"
+        content: var(--Community);
 }
 
 .guildDetail-1nRKNE.weightMedium-3h9nUm>div>i.statusOffline-37RKt7.status-2L8Zc7 {
@@ -1710,7 +1726,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         position: relative;
         display: flex;
         content: "";
-        margin: 0 0 0 8px;
+        margin: 0 8px;
         height: .25em;
         border-radius: 0 0 .5em .5em;
         -webkit-box-flex: 1;
@@ -1743,12 +1759,12 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         color: white;
         line-height: 25px;
         font-size: 25px;
-        content: "🙂";
+        content: var(--Emoji);
         -webkit-text-fill-color: white;
 }
 
 .emojiButton-3uL3Aw:hover::before {
-        content: "😜";
+        content: var(--EmojiHover);
 }
 
 .title-3qD0b->div>div:first-child>svg {
@@ -1759,7 +1775,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         color: white;
         line-height: 20px;
         font-size: 20px;
-        content: "💬";
+        content: var(--Channel);
         -webkit-text-fill-color: white;
 }
 
@@ -1771,7 +1787,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         color: white;
         line-height: 20px;
         font-size: 20px;
-        content: "🔧";
+        content: var(--Options);
         -webkit-text-fill-color: white;
 }
 
@@ -1808,10 +1824,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         font-size: .65rem;
         line-height: 1rem;
         font-weight: bold;
-}
-
-.body-ZAhrcj {
-        text-align: -webkit-center;
 }
 
 .spoilerWarning-2aAZq1, .spoilerText-3p6IlD, .spoilerText-3p6IlD.hidden-HHr2R9 {
@@ -1901,7 +1913,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .modeUnread-1zpFdA .name-3_Dsmg:before {
-        content: "✨";
+        content: var(--Unread);
         font-size: 16px;
         border-radius: .25em;
         margin-right: 5px;
@@ -1935,7 +1947,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         white-space: normal;
         text-align: center;
         color: var(--MainColor);
-        content: "Put another status"!important;
+        content: var(--EditStatus)!important;
 }
 
 .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after {
@@ -1943,7 +1955,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         white-space: normal;
         text-align: center;
         color: var(--MainColor);
-        content: "Watch me"!important;
+        content: var(--ProfilePic)!important;
 }
 
 .timeBarActivityFeed-24_oBt, .timeBarProfile-10b-fm {
@@ -1990,23 +2002,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 
 .winButtonClose-1HsbF-, .typeWindows-1za-n7>div:nth-child(3), .typeWindows-1za-n7>div:nth-child(4) {
         padding: .15em 0em;
-}
-
-.winButtonClose-1HsbF-:after {
-        content: "❌";
-        text-shadow: 0 0 15px red;
-}
-
-.typeWindows-1za-n7>div:nth-child(4):after {
-        content: "➖";
-        text-shadow: 0 0 15px rgb(255, 255, 255);
-}
-
-.typeWindows-1za-n7>div:nth-child(3):after {
-        position: absolute;
-        color: rgb(0, 102, 255);
-        content: "🔵";
-        text-shadow: 0 0 15px;
 }
 
 .background-yZEZik {
@@ -2102,7 +2097,7 @@ path[fill="#4f545c"] {
 }
 
 .spinner-2enMB9.ti-indicator.typingindicator-channel:after {
-        content: ".✒️";
+        content: "✒️";
         -webkit-animation: writing 1.25s ease infinite !important;
         animation: writing 1.25s ease infinite !important;
 }
@@ -2132,6 +2127,45 @@ a.channel-2QD9_O {
         position: relative;
 }
 
-.headerText-1HLrL7 .assets-VMAukC {
+.activity-1ythUs .assets-VMAukC {
+        position: absolute!important;
+}
+
+.activity-1ythUs .contentImagesProfile-1Mz07W {
+        margin-left: 0;
+}
+
+.activityUserPopout-2yItg2 .assets-VMAukC {
+        position: absolute!important;
+        right: 5px;
+}
+.activityUserPopout-2yItg2 .body-ZAhrcj {
+        text-align: left;
+}
+
+
+.name-3YKhmS, .tierTooltipTitle-1EIbL_ {
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 0 0 13px;
+        font-size: 20px;
+        line-height: 48px;
+}
+
+
+.winButtonClose-1HsbF-:after {
+        content: var(--Close);
+        text-shadow: 0 0 15px red;
+}
+
+.typeWindows-1za-n7>div:nth-child(4):after {
+        content: var(--Hide);
+        text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.typeWindows-1za-n7>div:nth-child(3):after {
         position: absolute;
+        color: rgb(0, 102, 255);
+        content: var(--Resize);
+        text-shadow: 0 0 15px;
 }
