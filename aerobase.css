@@ -2155,17 +2155,19 @@ a.channel-2QD9_O {
 
 .winButtonClose-1HsbF-:after {
         content: var(--Close);
-        text-shadow: 0 0 15px red;
+        color: var(--Unavailable);
+        text-shadow: 0 0 15px var(--Unavailable);
 }
 
 .typeWindows-1za-n7>div:nth-child(4):after {
         content: var(--Hide);
-        text-shadow: 0 0 15px rgb(255, 255, 255);
+        color: rgb(180, 180, 180);
+        text-shadow: 0 0 15px rgb(180, 180, 180);
 }
 
 .typeWindows-1za-n7>div:nth-child(3):after {
         position: absolute;
         color: rgb(0, 102, 255);
-        content: var(--Resize);
         text-shadow: 0 0 15px;
+        content: var(--Resize);
 }
