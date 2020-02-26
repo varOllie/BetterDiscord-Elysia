@@ -514,8 +514,8 @@ svg[style="color: rgb(114, 137, 218);"] {
         position: fixed;
         right: 0;
         height: calc(100vh - 60px);
-        width: calc(100vw - 265px);
-        top: 120px;
+        top: 70px;
+        width: calc(100vw - 338px);
         border-radius: .5em 0 0 0;
         overflow-y: auto;
         animation: opacity .75s ease;
