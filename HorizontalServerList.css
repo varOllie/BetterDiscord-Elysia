@@ -1,56 +1,71 @@
-
 /* HORIZONTAL SERVER LIST */
-
-.base-3dtUhz {
-    height: 100% !important;
-    position: unset;
-    margin-top: 50px;
-}
-
-
-.guilds-1SWlCJ {
-    width: 100%;
-}
-
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.wrapper-21YSNc {
-    position: relative;
-    z-index: 20;
-}
-
-.guilds-1SWlCJ .scrollerWrap-2lJEkd {
-    width: 100% !important;
-}
-
-.guilds-1SWlCJ .scroller-2FKFPG {
-    display: flex;
-    padding: 0 0 0 10px !important;
-    flex-wrap: wrap;
-    scroll-snap-type: y mandatory;
-    scroll-padding-top: 10px;
-}
-
-.guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child svg {
-    width: 100%;
-    height: 100%;
-}
-
-.guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child svg svg {
-    width: 55%;
-}
-
-.listItem-2P_4kh {
-    margin-bottom: 10px;
-}
 
 .listItem-2P_4kh.bd-guild-separator, .closedFolderIconWrapper-15K9MK div {
     display: none
 }
 
+.guilds-1SWlCJ .scrollerWrap-1IAIlv,
+.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG {
+    display: flex;
+    overflow: hidden;
+    contain: unset;
+    width: 100%;
+}
+
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>div,.expandedFolderBackground-2sPsd-,
 .guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
     width: 35px !important;
     height: 35px !important;
 }
 
+.closedFolderIconWrapper-15K9MK:after {
+    position: absolute;
+    content: var(--Folders);
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    left: 0;
+    top: 5px;
+    right: 0;
+}
+
+.expandedFolderBackground-2sPsd- {
+    min-height: 35px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.expandedFolderIconWrapper-1xLaU-:after {
+    position: absolute;
+    content: var(--FoldersOpen);
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>div {
+    margin: 0 0 0 5px !important;
+}
+
+.listItemWrapper-3X98Pc {
+    margin: 0 5px;
+}
+
+.guilds-1SWlCJ {
+    position: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.base-3dtUhz {
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
     margin: 0px !important;
     width: auto !important;
@@ -58,74 +73,18 @@
 }
 
 .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
-    position: absolute;
     height: 5px;
-    top: calc(100% + 1px);
+    top: unset;
+    bottom: -5px;
     width: 100%;
 }
 
 .item-2hkk8m {
-    position: absolute;
-    display: block;
-    width: 35px;
     height: 5px!important;
-    margin-left: 0;
+    width: 100%!important;
+    margin: 0!important;
 }
 
-.closedFolderIconWrapper-15K9MK:after {
-    position: absolute;
-    content: var(--Folders);
-    font-size: 25px;
-    line-height: 48px;
-    text-align: center;
-    width: 48px;
-    height: 48px;
-}
-
-.expandedFolderIconWrapper-1xLaU-:after {
-    position: absolute;
-    content: var(--FoldersOpen);
-    font-size: 25px;
-    line-height: 48px;
-    text-align: center;
-    width: 48px;
-    height: 48px;
-}
-
-.expandedFolderBackground-2sPsd- {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 35px;
-}
-
-.guilds-1SWlCJ .scroller-2FKFPG .wrapper-21YSNc {
-    width: auto !important;
-    height: fit-content;
-}
-
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>div {
-    width: 35px !important;
-    height: 35px !important;
-    margin: 0 0 0 5px !important;
-}
-
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.wrapper-21YSNc>.expandedGuilds-1JMD4M {
-    max-height: fit-content;
-    position: absolute;
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.wrapper-21YSNc {
     z-index: 10;
-}
-
-.listItemWrapper-3X98Pc {
-    margin: 0 5px;
-}
-
-.expandedFolderBackground-2sPsd- {
-    min-height: 35px;
-}
-
-.root-SR8cQa {
-    top: 120px;
-    width: calc(100vw - 265px);
 }

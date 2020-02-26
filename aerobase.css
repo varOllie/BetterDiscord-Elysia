@@ -2011,19 +2011,25 @@ a.channel-2QD9_O {
 
 .winButtonClose-1HsbF-:after {
         content: var(--Close);
-        text-shadow: 0 0 15px red;
+        color: red;
+        text-shadow: 0 0 12px;
+}
+
+.winButtonClose-1HsbF-:hover::after {
+        color: white;
 }
 
 .typeWindows-1za-n7>div:nth-child(4):after {
         content: var(--Hide);
-        text-shadow: 0 0 15px rgb(255, 255, 255);
+        color: rgb(116, 116, 116);
+        text-shadow: 0 0 12px rgb(116, 116, 116);
 }
 
 .typeWindows-1za-n7>div:nth-child(3):after {
         position: absolute;
         color: rgb(0, 102, 255);
         content: var(--Resize);
-        text-shadow: 0 0 15px;
+        text-shadow: 0 0 12px;
 }
 
 .expandedFolderBackground-2sPsd-, .item-2hkk8m {
