@@ -4,18 +4,18 @@
     display: none
 }
 
-.guilds-1SWlCJ .scrollerWrap-1IAIlv,
-.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG {
+.guilds-1SWlCJ .scrollerWrap-1IAIlv, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG {
     display: flex;
     overflow: hidden;
     contain: unset;
     width: 100%;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>div,.expandedFolderBackground-2sPsd-,
-.guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>div, .expandedFolderBackground-2sPsd-, .guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
     width: 35px !important;
     height: 35px !important;
+    margin: 0 0 10px;
+    border-radius: .25em;
 }
 
 .closedFolderIconWrapper-15K9MK:after {
@@ -66,16 +66,21 @@
     top: 50px;
     left: 0;
 }
+
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
     margin: 0px !important;
     width: auto !important;
     height: 35px !important;
 }
 
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.listItem-2P_4kh {
+    background-color: var(--grey);
+}
+
 .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
     height: 5px;
     top: unset;
-    bottom: -5px;
+    bottom: -7px;
     width: 100%;
 }
 
