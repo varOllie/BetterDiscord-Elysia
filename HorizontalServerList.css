@@ -93,3 +93,7 @@
 .guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.wrapper-21YSNc {
     z-index: 10;
 }
+
+.root-SR8cQa {
+    width: calc(100vw - 265px);
+}
