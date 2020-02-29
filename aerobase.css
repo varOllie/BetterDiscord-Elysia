@@ -24,9 +24,9 @@
         --HoverMessage: var(--darkgrey5);
         --JoinUS: 'Hey! Wanna have some fun.. Join US !';
         --AddNewServer: '➕ Add a new server';
-        --Close: '❌';
+        --Close: '🔴';
         --Resize: '🔵';
-        --Hide: '➖';
+        --Hide: '⚫';
         --ProfilePic: 'Watch me';
         --Unread: '✨';
         --Options: '🔧';
@@ -1710,7 +1710,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .modeUnread-1zpFdA .name-3_Dsmg:before {
-        content: var(--Unread);
+        content: var(--Unread)!important;
         font-size: 16px;
         border-radius: .25em;
         margin-right: 5px;
@@ -2040,12 +2040,12 @@ polyline[stroke*="#7289da"] {
         stroke: white!important;
 }
 
-.panels-j1Uci_ svg+.name-3_Dsmg:before {
+.sidebar-2K8pFh svg+.name-3_Dsmg:before {
         content: var(--Channel);
         margin-right: 5px
 }
 
-.panels-j1Uci_ svg[name*=Speaker]+.name-3_Dsmg:before {
+.sidebar-2K8pFh svg[name*=Speaker]+.name-3_Dsmg:before {
         content: var(--Voice);
         margin-right: 5px
 }
