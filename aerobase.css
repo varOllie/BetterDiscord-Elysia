@@ -178,8 +178,7 @@
         border-radius: .25em;
 }
 
-.jumpToPresentBar-9P20AM, .newMessagesBar-mujexs,
-.item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .expandedFolderBackground-2sPsd-, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+.jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .expandedFolderBackground-2sPsd-, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
         background: radial-gradient(circle, var(--animation))!important;
         background-size: 1000% 500%!important;
         -webkit-animation: K2KBG var(--time) ease infinite !important;
@@ -1140,7 +1139,7 @@ div[style*="flex: 0 1 323px"] {
         color: white;
         margin: 0 .5em!important;
         height: 30px!important;
-    }
+}
 
 .side-8zPYf6 .item-PXvHYJ:hover, .ui-tab-bar-item:hover {
         color: white!important;
@@ -1948,8 +1947,8 @@ a.channel-2QD9_O {
 
 .winButtonClose-1HsbF-:after {
         content: var(--Close);
-        color: red;
-        text-shadow: 0 0 12px;
+        color: var(--Unavailable);
+        text-shadow: 0 0 2px black;
 }
 
 .winButtonClose-1HsbF-:hover::after {
@@ -1959,14 +1958,13 @@ a.channel-2QD9_O {
 .typeWindows-1za-n7>div:nth-child(4):after {
         content: var(--Hide);
         color: rgb(116, 116, 116);
-        text-shadow: 0 0 12px rgb(116, 116, 116);
+        text-shadow: 0 0 2px black;
 }
 
 .typeWindows-1za-n7>div:nth-child(3):after {
-        position: absolute;
-        color: rgb(0, 102, 255);
         content: var(--Resize);
-        text-shadow: 0 0 12px;
+        color: rgb(0, 102, 255);
+        text-shadow: 0 0 2px black;
 }
 
 .expandedFolderBackground-2sPsd-, .item-2hkk8m {
@@ -1987,4 +1985,22 @@ a.channel-2QD9_O {
         border-radius: .25em;
         -webkit-box-shadow: none!important;
         box-shadow: none!important;
+}
+
+[src*="avatars/201474545289396224/"] + .header-23xsNx .username-1A8OIy::after{
+        content: "🎩 THE WIZARD";
+        text-shadow: none;
+        pointer-events: none;
+        background: var(--grey);
+        color: #fff;
+        margin-left: 3px;
+        font-size: 12px;
+        border-radius: .25em;
+        padding: 0 5px;
+    }
+
+    .username-1A8OIy.clickable-1bVtEA:hover {
+        cursor: pointer;
+        text-decoration: unset;
+        text-shadow: 0 0 0;
     }
