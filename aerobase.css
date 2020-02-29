@@ -2040,17 +2040,17 @@ polyline[stroke*="#7289da"] {
         stroke: white!important;
 }
 
-.sidebar-2K8pFh svg+.name-3_Dsmg:before {
+.panels-j1Uci_ svg+.name-3_Dsmg:before {
         content: var(--Channel);
         margin-right: 5px
 }
 
-.sidebar-2K8pFh svg[name*=Speaker]+.name-3_Dsmg:before {
+.panels-j1Uci_ svg[name*=Speaker]+.name-3_Dsmg:before {
         content: var(--Voice);
         margin-right: 5px
 }
 
-button:nth-child(2) path:first-child, button:nth-child(2) path:nth-child(2), button:nth-child(1) path:nth-child(1), button:nth-child(1) path:nth-child(2), button:nth-child(1) path:nth-child(3) {
+.panels-j1Uci_ button:nth-child(2) path:first-child, .panels-j1Uci_ button:nth-child(2) path:nth-child(2), .panels-j1Uci_ button:nth-child(1) path:nth-child(1), .panels-j1Uci_ button:nth-child(1) path:nth-child(2), .panels-j1Uci_ button:nth-child(1) path:nth-child(3) {
         display: none;
 }
 
