@@ -1488,7 +1488,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         height: 30px;
 }
 
-.rolesList-22qj2L li:nth-child(1)>.roleName-32vpEy {
+.rolesList-22qj2L li>.roleName-32vpEy {
         width: 100%;
         max-width: 100%;
         text-align: center;
