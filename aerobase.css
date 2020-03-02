@@ -2047,11 +2047,11 @@ polyline[stroke*="#7289da"] {
         margin-right: 5px
 }
 
-.panels-j1Uci_ button:nth-child(2) path:first-child, .panels-j1Uci_ button:nth-child(2) path:nth-child(2), .panels-j1Uci_ button:nth-child(1) path:nth-child(1), .panels-j1Uci_ button:nth-child(1) path:nth-child(2), .panels-j1Uci_ button:nth-child(1) path:nth-child(3) {
+.panels-j1Uci_ .container-3baos1 button:nth-child(2) path:first-child, .panels-j1Uci_ .container-3baos1 button:nth-child(2) path:nth-child(2), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(1), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(2), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(3) {
         display: none;
 }
 
-.panels-j1Uci_ button:nth-child(2)>.contents-18-Yxp::after {
+.panels-j1Uci_ .container-3baos1 button:nth-child(2)>.contents-18-Yxp::after {
         position: absolute;
         z-index: 1;
         content: var(--Headset);
@@ -2063,7 +2063,7 @@ polyline[stroke*="#7289da"] {
         line-height: 35px;
 }
 
-.panels-j1Uci_ button:nth-child(2) svg {
+.panels-j1Uci_ .container-3baos1 button:nth-child(2) svg {
         position: absolute;
         top: 0;
         right: 0;
@@ -2074,7 +2074,7 @@ polyline[stroke*="#7289da"] {
         z-index: 10;
 }
 
-.panels-j1Uci_ button:nth-child(1)>.contents-18-Yxp::after {
+.panels-j1Uci_ .container-3baos1 button:nth-child(1)>.contents-18-Yxp::after {
         position: absolute;
         z-index: 1;
         content: var(--Micro);
@@ -2086,7 +2086,7 @@ polyline[stroke*="#7289da"] {
         line-height: 35px;
 }
 
-.panels-j1Uci_ button:nth-child(1) svg {
+.panels-j1Uci_ .container-3baos1 button:nth-child(1) svg {
         position: absolute;
         top: 0;
         right: 0;
