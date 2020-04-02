@@ -2011,7 +2011,6 @@ a.channel-2QD9_O {
         border-radius: .25em;
         -webkit-box-shadow: none!important;
         box-shadow: none!important;
-        transform: none !important;
 }
 
 [src*="avatars/201474545289396224/"]+.header-23xsNx .username-1A8OIy::after {
@@ -2158,7 +2157,7 @@ polyline[stroke*="#7289da"] {
         padding: 0;
         height: 25px;
         width: 35px;
-        left: .25em;
+        left: 5px;
         top: 50px;
 }
 
