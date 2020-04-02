@@ -82,12 +82,6 @@
         display: none!important;
 }
 
-.typeWindows-1za-n7 {
-        background: var(--TitleBG);
-        z-index: 0;
-        height: 20px;
-}
-
 .typeWindows-1za-n7:after {
         position: absolute;
         top: 0;
@@ -187,6 +181,10 @@
         padding-top: 0px;
 }
 
+.platform-win .bg-h5JY_x {
+        top: 0px;
+}
+
 .scroller-305q3I {
         background-color: transparent;
 }
@@ -212,7 +210,7 @@
         left: 0;
         right: 0;
         background: var(--TitleBG);
-        height: 70px;
+        height: 74px;
 }
 
 #app-mount .wrapper-21YSNc [role=group], .expandedFolderBackground-2sPsd-, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
@@ -2180,15 +2178,15 @@ polyline[stroke*="#7289da"] {
 
 .wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU:before {
         content: var(--Channel);
-        margin-right: 5px    
-    }
-    
-    .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU:before {
+        margin-right: 5px
+}
+
+.wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU:before {
         content: var(--Voice);
         margin-right: 5px
-    }
+}
 
-    .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc>div {
+.tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc>div {
         background: center / contain no-repeat var(--logo)!important;
         border-radius: .5em;
-    }
+}
