@@ -130,7 +130,6 @@
 }
 
 .appMount-3lHmkl, .preview-2nSL_2, .container-16j22k {
-        z-index: -2;
         background: center / cover no-repeat var(--background) !important;
 }
 
@@ -173,7 +172,7 @@
 
 .wrapper-35wsBm, .wrapper-3D2qGf, .childWrapper-anI2G9, .container-3ayLPN {
         box-shadow: none;
-        background: var(--darkgrey)!important;
+        background: var(--darkgrey5)!important;
         border-radius: .25em!important;
 }
 
@@ -2012,6 +2011,7 @@ a.channel-2QD9_O {
         border-radius: .25em;
         -webkit-box-shadow: none!important;
         box-shadow: none!important;
+        transform: none !important;
 }
 
 [src*="avatars/201474545289396224/"]+.header-23xsNx .username-1A8OIy::after {
@@ -2142,7 +2142,7 @@ polyline[stroke*="#7289da"] {
         display: block;
         content: "";
         height: 5px;
-        border-radius: 0;
+        border-radius: 0 0 .25em .25em;
         background-color: transparent;
 }
 
