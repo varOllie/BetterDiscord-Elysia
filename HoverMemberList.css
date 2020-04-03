@@ -1,5 +1,12 @@
 /* HOVERMEMBERLIST PLUGIN by ᴘᴜʀᴘʟᴇ ᴡɪᴢᴀʀᴅ#0984 */
 
+.membersWrap-2h-GB4, .membersWrap-2h-GB4 .scroller-2FKFPG {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 /* GROUP HEADER */
 .membersGroup-v9BXpm {
     opacity: 0;

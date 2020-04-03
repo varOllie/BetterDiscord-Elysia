@@ -1,0 +1,26 @@
+/* Horizontal Server List by Gibbu Fix */
+
+.closedFolderIconWrapper-15K9MK>.guildIcon-GuAC7C {
+    display: none
+}
+
+#app-mount .listItemTooltip-CDcY8J {
+    white-space: initial!important;
+}
+
+#app-mount .wrapper-21YSNc [role=group] {
+    border-radius: 0 .25em .25em 0;
+    height: var(--server-size)!important;
+}
+
+.expandedFolderBackground-2sPsd- {
+    min-height: var(--server-size)!important;
+}
+
+#app-mount:before {
+    height: 14px;
+}
+
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
+    background: var(--TitleBG)!important;
+}

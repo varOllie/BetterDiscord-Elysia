@@ -16,7 +16,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '0.9 (BETA)';
+        --version: '0.91 (BETA)';
         --time: 5s;
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
@@ -181,7 +181,7 @@
         padding-top: 0px;
 }
 
-.platform-win .bg-h5JY_x {
+.platform-win .bg-h5JY_x, .platform-win .standardSidebarView-3F1I7i {
         top: 0px;
 }
 
@@ -210,7 +210,7 @@
         left: 0;
         right: 0;
         background: var(--TitleBG);
-        height: 74px;
+        height: 14px;
 }
 
 #app-mount .wrapper-21YSNc [role=group], .expandedFolderBackground-2sPsd-, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .users-i_3-kL, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
@@ -1626,14 +1626,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         content: var(--EmojiHover);
 }
 
-.sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp:after {
-        color: white;
-        line-height: 35px;
-        font-size: 20px;
-        content: var(--Options);
-        -webkit-text-fill-color: white;
-}
-
 .mentioned-xhSam7 .mention {
         text-shadow: 0 0 10px;
 }
@@ -1867,10 +1859,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 .membersWrap-2h-GB4, .membersWrap-2h-GB4 .scroller-2FKFPG {
         width: 265px;
         max-width: unset;
-        position: absolute;
-        right: 0;
-        top: 0;
-        bottom: 0;
         padding: 0;
         margin-bottom: 0;
 }
@@ -1996,7 +1984,28 @@ a.channel-2QD9_O {
 }
 
 .expandedFolderBackground-2sPsd- {
-        min-height: 48px;
+        min-height: 35px;
+}
+
+.closedFolderIconWrapper-15K9MK:after {
+        position: absolute;
+        content: var(--Folders);
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        left: 0;
+        top: 5px;
+        right: 0;
+}
+
+.expandedFolderIconWrapper-1xLaU-:after {
+        position: absolute;
+        content: var(--FoldersOpen);
+        font-size: 25px;
+        line-height: 1.8;
+        text-align: center;
+        width: 100%;
+        height: 100%;
 }
 
 .modal-3c3bKg .header-QKLPzZ {
@@ -2066,7 +2075,7 @@ polyline[stroke*="#7289da"] {
 .panels-j1Uci_ .container-3baos1 button:nth-child(3)>.contents-18-Yxp::after {
         position: absolute;
         z-index: 1;
-        content: "🔧";
+        content: var(--Options);
         top: 0;
         bottom: 0;
         left: 2px;
