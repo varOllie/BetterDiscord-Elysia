@@ -6,6 +6,8 @@
 
 #app-mount .listItemTooltip-CDcY8J {
     white-space: initial!important;
+    left: 0;
+    right: -150px;
 }
 
 #app-mount .wrapper-21YSNc [role=group] {

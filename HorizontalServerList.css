@@ -1,7 +1,18 @@
 /* HORIZONTAL SERVER LIST */
 
+.base-3dtUhz {
+    z-index: 1;
+    position: absolute;
+    top: calc(25px + var(--ServerSize));
+    left: 0;
+}
+
+.root-SR8cQa {
+    width: calc(100vw - 265px);
+}
+
 #app-mount:before {
-    height: 14px!important;
+    height: calc(39px + var(--ServerSize))!important;
 }
 
 #app-mount .guilds-1SWlCJ {
@@ -13,10 +24,20 @@
 #app-mount [data-ref-id=guildsnav] {
     display: flex;
     flex-wrap: wrap;
-    height: 55px;
+    height: calc(20px + var(--ServerSize));
     overflow-y: auto;
     width: 100%;
     justify-content: center;
+}
+
+#app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
+    width: calc(var(--ServerSize) - 10px);
+    height: calc(var(--ServerSize) - 10px);
+}
+
+a.wrapper-1BJsBx, a.wrapper-1BJsBx>.icon-27yU2q {
+    width: var(--ServerSize);
+    height: var(--ServerSize);
 }
 
 .expandedFolderBackground-2sPsd- {
@@ -54,8 +75,8 @@ div[data-ref-id="guildsnav"]>div:first-child {
 
 div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     margin: 10px 0 10px 5px !important;
-    width: 35px;
-    height: 35px;
+    width: var(--ServerSize);
+    height: var(--ServerSize);
 }
 
 #app-mount .wrapper-21YSNc {
@@ -76,16 +97,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
     position: unset;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>.tutorialContainer-1v44GL,
-/* DISCORD ICON */
-
-.guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-2FKFPG>.tutorialContainer-SGrQ1h,
-/* ADD SERVER ICON */
-
-.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>div:last-child
-/* DISCOVER ICON */
-
-    {
+.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>.tutorialContainer-1v44GL, .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-2FKFPG>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>div:last-child {
     background-color: transparent;
     margin: 10px 5px 0px 0px;
 }
@@ -99,7 +111,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 
 .tutorialContainer-1v44GL {
     margin-left: 5px!important;
-    height: 35px;
+    height: var(--ServerSize);
 }
 
 .tutorialContainer-SGrQ1h {
@@ -119,8 +131,8 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 }
 
 .expandedFolderBackground-2sPsd-, .guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
-    width: 35px !important;
-    height: 35px !important;
+    width: var(--ServerSize) !important;
+    height: var(--ServerSize) !important;
     margin: 0;
     border-radius: .25em;
 }
@@ -130,9 +142,8 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
     height: 100%;
 }
 
-
 .expandedFolderBackground-2sPsd- {
-    min-height: 35px;
+    min-height: var(--ServerSize);
     top: 0;
     left: 0;
     bottom: 0;
@@ -151,7 +162,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
     margin: 0px !important;
     width: auto !important;
-    height: 35px !important;
+    height: var(--ServerSize) !important;
 }
 
 .guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.listItem-2P_4kh {
@@ -164,17 +175,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
     margin: 0!important;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.wrapper-21YSNc {
-    z-index: 10;
-}
 
-.root-SR8cQa {
-    width: calc(100vw - 265px);
-}
-
-.base-3dtUhz {
-    z-index: 1;
-    position: absolute;
-    top: 60px;
-    left: 0;
+#app-mount .wrapper-21YSNc[role="treeitem"] {
+    border-radius: .25em;
 }
