@@ -16,7 +16,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '0.92 (BETA)';
+        --version: '0.93 (BETA)';
         --time: 5s;
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
@@ -79,7 +79,8 @@
         position: static;
 }
 
-.tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, .wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg, .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .panels-j1Uci_ .container-3baos1 button:nth-child(3) svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .title-3qD0b->div>div:first-child>svg, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .chatContent-a9vAAp>form>div>div>div>div.buttons-3JBrkn>button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN, .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discordapp.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
+.chatContent-a9vAAp .attachButton-2WznTc>div>svg, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, 
+.wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg:not(.actionIcon-2Hi9ZG), .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .panels-j1Uci_ .container-3baos1 button:nth-child(3) svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .title-3qD0b->div>div:first-child>svg, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .chatContent-a9vAAp>form>div>div>div>div.buttons-3JBrkn>button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN, .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discordapp.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
         display: none!important;
 }
 
@@ -1464,22 +1465,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         height: 10px!important;
 }
 
-.chat-3bRxxu>div.content-yTz4x3>div.chatContent-a9vAAp>form>div>div>div>div.attachWrapper-2TRKBi>button>div>svg {
-        display: none
-}
-
-.chatContent-a9vAAp>form>div>div>div>.attachWrapper-2TRKBi>button>div:before {
-        color: white;
-        line-height: 25px;
-        font-size: 20px;
-        content: "🔗";
-        margin-right: .5em
-}
-
-.chatContent-a9vAAp>form>div>div>div>.attachWrapper-2TRKBi>button>div:hover::before {
-        content: "➕"
-}
-
 .actionButton-uPB8Fs {
         border-radius: .25em;
 }
@@ -2205,4 +2190,42 @@ polyline[stroke*="#7289da"] {
 .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX {
         color: white!important;
         float: right;
+}
+
+.layer-v9HyYc[style*="top: 37px;left: 977px;"] {
+        top: 85px;
+        left: 808px;
+}
+
+.layer-v9HyYc[style*="top: 37px; left: 927px;"] {
+        top: 85px;
+        left: 787px;
+}
+
+.listItem-2P_4kh, .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
+        height: var(--ServerSize)!important;
+        width: var(--ServerSize)!important;
+}
+
+#app-mount .wrapper-21YSNc {
+        margin: 5px auto;
+        border-radius: .25em;
+        margin-right: var(--server-spacing);
+}
+
+#app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
+        width: calc(var(--ServerSize) - 10px);
+        height: calc(var(--ServerSize) - 10px);
+}
+
+.chatContent-a9vAAp .attachButton-2WznTc>div::before {
+        color: white;
+        line-height: 25px;
+        font-size: 20px;
+        content: "🔗";
+        margin-right: .5em
+}
+
+.chatContent-a9vAAp .attachButton-2WznTc>div:hover::before {
+        content: "➕"
 }
