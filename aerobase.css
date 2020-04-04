@@ -2202,7 +2202,7 @@ polyline[stroke*="#7289da"] {
         left: 787px;
 }
 
-.listItem-2P_4kh, .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child), .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
         height: var(--ServerSize)!important;
         width: var(--ServerSize)!important;
 }

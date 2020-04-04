@@ -27,7 +27,7 @@
     background: var(--TitleBG)!important;
 }
 
-.listItem-2P_4kh, .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child), .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
     height: var(--server-size)!important;
     width: var(--server-size)!important;
 }
