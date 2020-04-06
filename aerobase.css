@@ -1362,14 +1362,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         color: white;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
-        padding: 0;
-        height: 30px;
-        width: 35px;
-        left: 10px;
-        top: 50px;
-}
-
 .mention-1f5kbO {
         border-radius: .5em;
 }
@@ -2200,22 +2192,6 @@ polyline[stroke*="#7289da"] {
 .layer-v9HyYc[style*="top: 37px; left: 927px;"] {
         top: 85px;
         left: 787px;
-}
-
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child), .wrapper-21YSNc[aria-expanded="false"], .blobContainer-239gwq {
-        height: var(--ServerSize)!important;
-        width: var(--ServerSize)!important;
-}
-
-#app-mount .wrapper-21YSNc {
-        margin: 5px auto;
-        border-radius: .25em;
-        margin-right: var(--server-spacing);
-}
-
-#app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
-        width: calc(var(--ServerSize) - 10px);
-        height: calc(var(--ServerSize) - 10px);
 }
 
 .chatContent-a9vAAp .attachButton-2WznTc>div::before {
