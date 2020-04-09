@@ -79,6 +79,10 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
     height: var(--ServerSize);
 }
 
+div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
+    border-radius: .25em;
+}
+
 #app-mount .wrapper-21YSNc {
     width: auto;
     display: flex;
@@ -173,9 +177,4 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
     height: 5px!important;
     width: 100%!important;
     margin: 0!important;
-}
-
-
-#app-mount .wrapper-21YSNc[role="treeitem"] {
-    border-radius: .25em;
 }
