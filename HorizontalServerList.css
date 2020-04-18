@@ -35,11 +35,6 @@
     height: calc(var(--ServerSize) - 10px);
 }
 
-a.wrapper-1BJsBx, a.wrapper-1BJsBx>.icon-27yU2q {
-    width: var(--ServerSize);
-    height: var(--ServerSize);
-}
-
 .expandedFolderBackground-2sPsd- {
     border-radius: .25em 0 0 .25em!important;
 }
