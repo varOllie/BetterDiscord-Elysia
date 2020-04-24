@@ -79,8 +79,7 @@
         position: static;
 }
 
-.chatContent-a9vAAp .attachButton-2WznTc>div>svg, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, 
-.wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg:not(.actionIcon-2Hi9ZG), .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .panels-j1Uci_ .container-3baos1 button:nth-child(3) svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .title-3qD0b->div>div:first-child>svg, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .chatContent-a9vAAp>form>div>div>div>div.buttons-3JBrkn>button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN, .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discordapp.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
+.chatContent-a9vAAp .attachButton-2WznTc>div>svg, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, .wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg:not(.actionIcon-2Hi9ZG), .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .panels-j1Uci_ .container-3baos1 button:nth-child(3) svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .title-3qD0b->div>div:first-child>svg, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .chatContent-a9vAAp>form>div>div>div>div.buttons-3JBrkn>button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN, .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discordapp.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
         display: none!important;
 }
 
@@ -2034,7 +2033,8 @@ a.channel-2QD9_O {
 }
 
 .modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg {
-        text-shadow: 0 0 1px white;
+        text-shadow: 0 0 1px;
+        color: rgb(255, 255, 255, .35);
 }
 
 .checkbox-1ix_J3 {
@@ -2204,4 +2204,35 @@ polyline[stroke*="#7289da"] {
 
 .chatContent-a9vAAp .attachButton-2WznTc>div:hover::before {
         content: "➕"
+}
+
+.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .scrollerWrap-2lJEkd {
+        margin-top: 85px;
+}
+
+.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"]::after {
+        position: absolute;
+        font-size: 16px;
+        line-height: 90px;
+        border-radius: 0 .5em .5em 0;
+        text-align: center;
+        height: 135px;
+        top: 0;
+        left: 0;
+        right: 0;
+        content: "Games & Design";
+        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/671481699871490078/neon.jpg) !important;
+}
+
+.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::after {
+        position: absolute;
+        border-radius: 0 .5em .5em 0;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        top: 15px;
+        left: 6.5px;
+        z-index: 1;
+        content: "";
+        background: center / cover no-repeat url(https://cdn.discordapp.com/avatars/201474545289396224/ecd4e314ceeb090a51eeb949ee430128.png?size=128) !important;
 }
