@@ -16,7 +16,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '0.94 (BETA)';
+        --version: '0.95 (BETA)';
         --time: 5s;
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
@@ -262,7 +262,7 @@
         border: none!important;
 }
 
-.activity-1ythUs, .nameTag-2IFDfL, .tabBarContainer-1s1u-z, .headerInfo-30uryT {
+.activity-1ythUs, .tabBarContainer-1s1u-z, .headerInfo-30uryT {
         display: block;
         text-align: -webkit-center;
 }
@@ -276,7 +276,7 @@
         display: inline!important;
 }
 
-svg[style="color: rgb(114, 137, 218);"] {
+.iconTierOne-BHC2T8, .iconTierTwo-_1edeM, .iconTierThree-3vLwdG, svg[style="color: rgb(114, 137, 218);"] {
         color: white!important;
 }
 
@@ -487,6 +487,7 @@ svg[style="color: rgb(114, 137, 218);"] {
 }
 
 #MemberCount {
+        background-color: transparent !important;
         position: initial;
         width: auto;
 }
@@ -502,7 +503,7 @@ svg[style="color: rgb(114, 137, 218);"] {
         position: fixed;
         right: 0;
         height: calc(100vh - 60px);
-        top: 70px;
+        top: 60px;
         width: calc(100vw - 338px);
         border-radius: .5em 0 0 0;
         overflow-y: auto;
@@ -2235,4 +2236,84 @@ polyline[stroke*="#7289da"] {
         z-index: 1;
         content: "";
         background: center / cover no-repeat url(https://cdn.discordapp.com/avatars/201474545289396224/ecd4e314ceeb090a51eeb949ee430128.png?size=128) !important;
+}
+
+.wrapper-2qzCYF {
+        background: var(--darkgrey5)!important;
+        border-radius: .25em;
+        margin-right: 15px
+}
+
+.iconBadge-2wi9r4.participating-NBGDkr {
+        background-color: var(--Online)!important;
+}
+
+.iconBadge-2wi9r4.participating-NBGDkr>.icon-3s6X1M {
+        color: var(--grey)! important;
+}
+
+.controlButton-2MhVEL.leaveButton-2YnTyt {
+        background-color: var(--Unavailable);
+}
+
+.name-uJV0GL {
+        line-height: 24px;
+}
+
+.guildIcon-GuAC7C, #app-mount .guilds-1SWlCJ .scroller-2TZvBN>.listItem-2P_4kh:not(:last-child), .listItem-2P_4kh.bd-guild-separator, .closedFolderIconWrapper-15K9MK div {
+        display: none;
+}
+
+.guilds-1SWlCJ {
+        background: var(--Sidebar) !important;
+        width: calc(20px + var(--ServerSize));
+}
+
+.base-3dtUhz {
+        left: calc(20px + var(--ServerSize));
+}
+
+#app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
+        width: calc(var(--ServerSize) - 10px);
+        height: calc(var(--ServerSize) - 10px);
+}
+
+div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
+        margin: 10px !important;
+        width: var(--ServerSize) !important;
+        border-radius: .25em;
+}
+
+.guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
+        margin: 0px !important;
+        width: auto !important;
+        height: var(--ServerSize) !important;
+}
+
+.expandedFolderBackground-2sPsd-, .guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
+        width: var(--ServerSize) !important;
+        height: var(--ServerSize) !important;
+        margin: 0;
+        border-radius: .25em;
+}
+
+.tutorialContainer-1v44GL {
+        left: 10px;
+}
+
+.pill-31IEus, .pill-2uzAFe {
+        left: -10px
+}
+
+.tutorialContainer-SGrQ1h+.listItem-2P_4kh, .tutorialContainer-SGrQ1h>.listItem-2P_4kh {
+        margin: 10px
+}
+
+.nameTag-2IFDfL {
+        display: inline-flex;
+        text-align: -webkit-center;
+}
+
+#app-mount .wrapper-21YSNc [role=group] {
+        height: unset !important;
 }

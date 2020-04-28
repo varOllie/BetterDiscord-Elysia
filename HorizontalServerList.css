@@ -9,6 +9,7 @@
 
 .root-SR8cQa {
     width: calc(100vw - 265px);
+    top: calc(42.5px + var(--ServerSize))
 }
 
 #app-mount:before {
