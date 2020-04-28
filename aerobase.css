@@ -2301,7 +2301,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
         left: 10px;
 }
 
-.pill-31IEus, .pill-2uzAFe {
+.pill-31IEus, .pill-2uzAFe, .pill-1m5BUr {
         left: -10px
 }
 
@@ -2316,4 +2316,9 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 
 #app-mount .wrapper-21YSNc [role=group] {
         height: unset !important;
+}
+
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"] {
+        margin: 10px;
+        height: var(--ServerSize) !important;
 }
