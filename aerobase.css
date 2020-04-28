@@ -1484,15 +1484,15 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         z-index: 1;
 }
 
-.guildDetail-1nRKNE.weightMedium-3h9nUm .count-30T-5k {
+.statusCounts-2qk4EE .count-30T-5k {
         margin-right: 2px;
 }
 
-.guildDetail-1nRKNE.weightMedium-3h9nUm .statusCounts-2qk4EE:after {
+.statusCounts-2qk4EE:after {
         content: var(--Community);
 }
 
-.guildDetail-1nRKNE.weightMedium-3h9nUm>div>i.statusOffline-37RKt7.status-2L8Zc7 {
+.statusCounts-2qk4EE>i.statusOffline-37RKt7 {
         position: absolute;
         bottom: -20px;
         left: 0px;
