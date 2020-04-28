@@ -47,6 +47,7 @@
 .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
     height: 5px;
     top: -7px;
+    left: 0px;
     width: 100%;
     transform: none;
     border-radius: .5em;
@@ -71,8 +72,6 @@ div[data-ref-id="guildsnav"]>div:first-child {
 
 div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     margin: 10px 0 10px 5px !important;
-    width: var(--ServerSize);
-    height: var(--ServerSize);
 }
 
 div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
@@ -80,7 +79,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 }
 
 #app-mount .wrapper-21YSNc {
-    width: auto;
+    width: auto !important;
     display: flex;
     align-items: center;
     margin-bottom: 0;
@@ -128,13 +127,6 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     display: flex;
     contain: unset;
     width: 100%;
-}
-
-.expandedFolderBackground-2sPsd-, .guilds-1SWlCJ .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
-    width: var(--ServerSize) !important;
-    height: var(--ServerSize) !important;
-    margin: 0;
-    border-radius: .25em;
 }
 
 .expandedFolderIconWrapper-1xLaU- {
