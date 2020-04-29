@@ -1,4 +1,4 @@
-/* HORIZONTAL SERVER LIST */
+/* HORIZONTAL SERVER LIST BY PURPLE WIZARD */
 
 .base-3dtUhz {
     z-index: 1;
@@ -44,7 +44,7 @@
     border-radius: .25em!important;
 }
 
-.guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
+.guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
     height: 5px;
     top: -7px;
     left: 0px;
@@ -92,35 +92,19 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     border-radius: 0 .25em .25em 0;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>.tutorialContainer-1v44GL, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>div[data-ref-id="guildsnav"], .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-2FKFPG>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>div:last-child {
-    position: unset;
-}
-
 .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>.tutorialContainer-1v44GL, .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-2FKFPG>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG>div:last-child {
     background-color: transparent;
-    margin: 10px 5px 0px 0px;
 }
 
 /* PMs */
 
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"] {
-    margin-top: 10px;
-    margin-right: 5px;
-}
-
 .tutorialContainer-1v44GL {
-    margin-left: 5px!important;
+    margin: 10px 0 10px 15px !important;
     height: var(--ServerSize);
 }
 
 .tutorialContainer-SGrQ1h {
     margin-left: 5px!important;
-}
-
-/* HORIZONTAL SERVER LIST */
-
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN>.listItem-2P_4kh:not(:last-child), .listItem-2P_4kh.bd-guild-separator, .closedFolderIconWrapper-15K9MK div {
-    display: none
 }
 
 .guilds-1SWlCJ .scrollerWrap-1IAIlv, .guilds-1SWlCJ>.scrollerWrap-1IAIlv>.scroller-2FKFPG {
@@ -141,10 +125,6 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     bottom: 0;
 }
 
-.listItemWrapper-3X98Pc {
-    margin: 0 5px;
-}
-
 .guilds-1SWlCJ {
     position: unset;
     height: 100%;
@@ -159,9 +139,18 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 
 .guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.listItem-2P_4kh {
     background-color: var(--grey);
+    border-radius: .35em;
 }
 
-.item-2hkk8m {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:first-child {
+    margin: 10px 5px 0 5px;
+}
+
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:not(:first-child) {
+    margin: 10px 0px 0 5px;
+}
+
+.tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
     height: 5px!important;
     width: 100%!important;
     margin: 0!important;
