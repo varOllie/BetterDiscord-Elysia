@@ -16,9 +16,11 @@
     height: calc(39px + var(--ServerSize))!important;
 }
 
-#app-mount .guilds-1SWlCJ {
+.guilds-1SWlCJ {
     padding-top: .25em;
+    width: 100%;
     position: unset;
+    height: 100%;
     width: 100%;
 }
 
@@ -123,12 +125,6 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     top: 0;
     left: 0;
     bottom: 0;
-}
-
-.guilds-1SWlCJ {
-    position: unset;
-    height: 100%;
-    width: 100%;
 }
 
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {

@@ -69,6 +69,7 @@
         --background-modifier-active: var(--darkgrey5);
         --background-modifier-selected: rgba(79, 84, 92, 0.32);
         --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+        --background-message-hover: var(--HoverMessage);
 }
 
 .container-1r6BKw>.children-19S4PO>.iconWrapper-2OrFZ1>svg, .base-1x0h_U {
@@ -2273,7 +2274,6 @@ polyline[stroke*="#7289da"] {
 }
 
 .guilds-1SWlCJ {
-        background: var(--Sidebar) !important;
         width: calc(20px + var(--ServerSize));
 }
 
