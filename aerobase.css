@@ -124,7 +124,11 @@
         background-color: transparent!important;
 }
 
-.appMount-3lHmkl, .preview-2nSL_2, .container-16j22k {
+.appMount-3lHmkl, .container-16j22k {
+        background: transparent !important;
+}
+
+body, .preview-2nSL_2 {
         background: center / cover no-repeat var(--background) !important;
 }
 
@@ -572,7 +576,7 @@
 }
 
 .containerDefault-3GGEv_ {
-        padding-top: 10px;
+        padding-top: 0px;
         padding-bottom: 0px;
 }
 
@@ -812,7 +816,7 @@
 }
 
 .form-2fGMdU {
-        padding: 0 0 4px 0!important;
+        padding: 0!important;
 }
 
 .emojiPicker-3m1S-j {
@@ -1385,12 +1389,36 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         border-top-color: transparent!important;
 }
 
+.iconBadge-2NuvG9 {
+        border-radius: .25em;
+}
+
+.rtcConnectionStatusConnected-VRZDjy, .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
+        color: var(--Online);
+}
+
+.rtcConnectionStatusConnecting-3322Pa, .rtcConnectionQualityAverage-3KV0u- .pingForeground-2uAOZ3:not(:last-child) {
+        color: var(--Idle);
+}
+
+.rtcConnectionStatusError-2hLzrL, .rtcConnectionQualityBad-1J7mUU .pingForeground-2uAOZ3:first-child {
+        color: var(--Unavailable);
+}
+
+.container-1giJp5 {
+        border: none;
+}
+
+.sidebar-2K8pFh .scrollerWrap-2lJEkd>.scroller-2FKFPG>div {
+        margin-bottom: 50px;
+}
+
 .panels-j1Uci_>.container-3baos1 {
-        background-color: var(--darkgrey);
         height: 48px;
-        padding: 0em .5em 0em .5em!important;
+        background-color: var(--darkgrey5);
+        padding: .5em .35em !important;
         border-radius: 0 .35em .35em 0;
-        margin: 0em .5em 4px 0em;
+        margin: 0em .5em .25em 0em;
 }
 
 .button-38aScr:disabled {
@@ -1402,8 +1430,8 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .body-GmmuPm, .panels-j1Uci_>.container-1giJp5 {
-        background-color: var(--darkgrey);
-        height: 48px;
+        background-color: var(--darkgrey5);
+        height: unset;
         padding: 0em .5em 0em .5em;
         border-radius: 0 .35em .35em 0;
         margin: 0em .5em .25em 0em;
@@ -2366,11 +2394,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 
 .embedAuthor-3l5luH {
         display: block;
-        position: absolute;
         text-align: center;
-        right: 10px;
-        left: 10px;
-        top: 5px;
         font-size: 15px;
         line-height: 15px;
         text-transform: capitalize;
@@ -2405,4 +2429,8 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
         padding: 0 0 0 8px;
         font-size: 0;
         line-height: 0;
+}
+
+.sidebar-2K8pFh .scrollerWrap-2lJEkd>.scroller-2FKFPG>div {
+        margin-bottom: 50px;
 }
