@@ -200,6 +200,7 @@ body, .preview-2nSL_2 {
 }
 
 .typeWindows-1za-n7 {
+        background: var(--TitleBG);
         margin: 0;
         height: 15px!important;
         margin-bottom: 10px;
@@ -2367,13 +2368,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
         content: var( --Channel)
 }
 
-.embedProvider-3k5pfl {
-        position: absolute;
-        left: 10px;
-        top: 0px;
-        font-size: 15px;
-}
-
 .embed-IeVjo6 .embedAuthorNameLink-1gVryT {
         position: absolute;
         right: 10px;
@@ -2394,7 +2388,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 
 .embedAuthor-3l5luH {
         display: block;
-        text-align: center;
         font-size: 15px;
         line-height: 15px;
         text-transform: capitalize;
