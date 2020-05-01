@@ -1472,12 +1472,13 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-        background: white!important;
+        background: var(--Primary) !important;
+        opacity: 0.5;
 }
 
 .scroller-2FKFPG::-webkit-scrollbar {
-        width: 10px!important;
-        height: 10px!important;
+        width: 7.5px!important;
+        height: 5px!important;
 }
 
 .actionButton-uPB8Fs {
