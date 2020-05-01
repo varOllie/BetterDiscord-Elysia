@@ -1419,7 +1419,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 
 .panels-j1Uci_>.container-3baos1 {
         height: 48px;
-        background-color: var(--darkgrey5);
+        background-color: var(--SendMessage);
         padding: 0 .35em !important;
         border-radius: 0 .35em 0 0;
         margin: 0em .5em 0 0em;
@@ -1434,7 +1434,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .body-GmmuPm, .panels-j1Uci_>.container-1giJp5 {
-        background-color: var(--darkgrey5);
+        background-color: var(--SendMessage);
         height: unset;
         padding: 0em .5em 0em .5em;
         border-radius: 0 .35em .35em 0;
