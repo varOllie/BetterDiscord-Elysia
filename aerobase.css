@@ -2304,11 +2304,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
         left: -10px
 }
 
-.tutorialContainer-1v44GL {
-        margin: 10px 0 10px 10px !important;
-        height: var(--ServerSize);
-}
-
 .tutorialContainer-1v44GL>.listItem-2P_4kh {
         margin: 0px !important;
         width: var(--ServerSize);

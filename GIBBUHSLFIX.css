@@ -1,24 +1,10 @@
 /* Horizontal Server List by Gibbu Fix */
 
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv {
-    width: 100%;
-    background: var(--TitleBG);
+:root {
+    --server-size: var(--ServerSize);
 }
 
-.closedFolderIconWrapper-15K9MK>.guildIcon-GuAC7C,
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv .tutorialContainer-1v44GL .listItem-2P_4kh:not(:first-child) {
-    display: none;
-}
-
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ>div>div>div[data-ref-id="guildsnav"] .wrapper-21YSNc,
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ>div>div>div[data-ref-id="guildsnav"] .listItem-2P_4kh,
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .tutorialContainer-1v44GL .listItem-2P_4kh:first-child {
-    width: var(--server-size) !important;
-    height: auto !important;
-    min-height: var(--server-size) !important;
-    margin: 10px auto
-}
-
-.tutorialContainer-1v44GL {
-    margin: 10px;
+.wrapper-21YSNc .pill-31IEus, .tutorialContainer-SGrQ1h+.listItem-2P_4kh .pill-3YxEhL, .tutorialContainer-SGrQ1h+.listItem-2P_4kh+.listItem-2P_4kh .pill-3YxEhL, div[data-ref-id="guildsnav"]>.listItem-2P_4kh .pill-31IEus, .tutorialContainer-1v44GL .pill-2uzAFe {
+    left: 0;
+    border-radius: .25em;
 }
