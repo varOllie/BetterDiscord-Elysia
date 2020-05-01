@@ -19,7 +19,7 @@
     left: 0;
     right: 0;
     background: var(--TitleBG);
-    height: calc(39px + var(--ServerSize))!important;
+    height: calc(25px + var(--ServerSize))!important;
 }
 
 .guilds-1SWlCJ {
