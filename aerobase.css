@@ -17,7 +17,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '0.97 (BETA)';
+        --version: '2.0 (BETA)';
         --time: 5s;
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
