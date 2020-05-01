@@ -13,6 +13,12 @@
 }
 
 #app-mount:before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+    background: var(--TitleBG);
     height: calc(39px + var(--ServerSize))!important;
 }
 
