@@ -158,7 +158,7 @@ body, .preview-2nSL_2 {
 .userSettingsAccount-2eMFVR .cardPrimaryEditable-3KtE4g, .mentioned-xhSam7 {
         background: var(--darkgrey5)!important;
         margin: .5em;
-        border-radius: 0 .5em .5em 0;
+        border-radius: 0 .25em .25em 0 !important;
 }
 
 .wrapper-35wsBm, .wrapper-3D2qGf, .childWrapper-anI2G9, .container-3ayLPN, .descriptionBox-1EKQKL {
@@ -2284,7 +2284,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
         margin: 0px !important;
         width: auto !important;
-        height: var(--ServerSize) !important;
 }
 
 .expandedFolderBackground-2sPsd-, #app-mount [data-ref-id=guildsnav] .listItem-2P_4kh, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
@@ -2486,4 +2485,13 @@ button[role*="switch"]:after {
         font-weight: bold;
         margin: 0;
         line-height: 24px;
+}
+
+.layerContainer-yqaFcK {
+        top: calc(30px + var(--ServerSize));
+        z-index: 3001;
+}
+
+.tutorialContainer-1v44GL+div:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+        margin-left: 0px
 }
