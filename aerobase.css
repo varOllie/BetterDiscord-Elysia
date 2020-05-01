@@ -19,9 +19,10 @@
         --darkgrey5: rgba(14, 14, 14, 0.75);
         --version: '2.0 (BETA)';
         --time: 5s;
+        --TitleBG: var(--darkgrey5);
+        --Sidebar: var(--darkgrey5);
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
-        --Sidebar: var(--darkgrey5);
         --HoverMessage: var(--darkgrey5);
         --JoinUS: 'Hey! Wanna have some fun.. Join US !';
         --AddNewServer: '➕ Add a new server';
@@ -43,7 +44,6 @@
         --EditStatus: 'Put another status';
         --Folders: '📁';
         --FoldersOpen: '💠';
-        --TitleBG: var(--darkgrey5);
         --ServerSize: 45px;
 }
 
@@ -120,7 +120,7 @@
         background: transparent !important;
 }
 
-body, .preview-2nSL_2 {
+body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
         background: center / cover no-repeat var(--background) !important;
 }
 
@@ -174,7 +174,7 @@ body, .preview-2nSL_2 {
 }
 
 .platform-win .layer-3QrUeG {
-        top: -15px;
+        top: 0px;
         padding-top: 0px;
 }
 
@@ -193,8 +193,6 @@ body, .preview-2nSL_2 {
 .typeWindows-1za-n7 {
         background: var(--TitleBG);
         margin: 0;
-        height: 15px!important;
-        margin-bottom: 10px;
         z-index: 10;
 }
 
@@ -207,19 +205,7 @@ body, .preview-2nSL_2 {
         padding: 0;
         width: 100%;
         content: var(--title);
-        text-shadow: 0 0 12px;
         margin: 0 auto;
-        height: 15px;
-}
-
-#app-mount:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: var(--TitleBG);
-        height: 14px;
 }
 
 .divider-3573oO, .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX, div[data-ref-id="guildsnav"]>.wrapper-21YSNc, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
@@ -1792,6 +1778,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 
 .keybind-KpFkfr, .closeButton-1tv5uR path {
         color: white!important;
+        fill: white!important;
 }
 
 .markup-2BOw-j pre:after {
@@ -2264,6 +2251,7 @@ polyline[stroke*="#7289da"] {
 
 .guilds-1SWlCJ {
         width: calc(20px + var(--ServerSize));
+        background: var(--TitleBG)!important;
 }
 
 .base-3dtUhz {
@@ -2466,11 +2454,6 @@ button[role*="switch"]:after {
 
 .st1 {
         fill: var(--Unavailable)!important;
-}
-
-#user-settings.layer-3QrUeG {
-        top: 0px;
-        background: var(--background) !important;
 }
 
 .divider-3573oO {
