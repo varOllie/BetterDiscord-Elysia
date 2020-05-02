@@ -1974,7 +1974,7 @@ a.channel-2QD9_O {
         box-shadow: none!important;
 }
 
-[src*="avatars/201474545289396224/"]+.header-23xsNx .username-1A8OIy::after {
+.modal-3c3bKg .header-QKLPzZ .avatar-3EQepX[aria-label="Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ, Online"]+.headerInfo-30uryT .nameTag-2IFDfL:after, .modal-3c3bKg .header-QKLPzZ .avatar-3EQepX[aria-label="Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ, Do Not Disturb"]+.headerInfo-30uryT .nameTag-2IFDfL:after, .modal-3c3bKg .header-QKLPzZ .avatar-3EQepX[aria-label="Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ, Idle"]+.headerInfo-30uryT .nameTag-2IFDfL:after, .modal-3c3bKg .header-QKLPzZ .avatar-3EQepX[aria-label="Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ, Offline"]+.headerInfo-30uryT .nameTag-2IFDfL:after, .modal-3c3bKg .header-QKLPzZ .avatar-3EQepX[aria-label="Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ, Invisible"]+.headerInfo-30uryT .nameTag-2IFDfL:after, [src*="avatars/201474545289396224/"]+.header-23xsNx .username-1A8OIy::after {
         content: "🎩 THE WIZARD";
         text-shadow: none;
         pointer-events: none;
@@ -2468,7 +2468,7 @@ button[role*="switch"]:after {
         margin-left: 0px
 }
 
-.tools-3-3s-N .closeButton-1tv5uR:after {
+.closeButton-1tv5uR:after {
         width: 100%;
         height: 100%;
         text-align: center;
@@ -2590,9 +2590,9 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
         overflow: hidden;
         width: var(--ServerSize);
         height: var(--ServerSize);
-    }
-    
-    #bd-pub-button {
+}
+
+#bd-pub-button {
         border-radius: .25em;
         background: url(https://cdn.discordapp.com/attachments/476154188494143498/706213608387772496/public.png);
         color: #ffffff;
@@ -2600,4 +2600,4 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
         background-size: 90% 90%;
         background-repeat: no-repeat;
         background-position: center;
-    }
+}

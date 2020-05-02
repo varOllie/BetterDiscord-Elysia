@@ -178,6 +178,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 #bd-pub-li {
     margin: 10px 0 0 5px;
     overflow: hidden;
+    min-width: var(--ServerSize);
     width: var(--ServerSize);
     height: var(--ServerSize);
 }
