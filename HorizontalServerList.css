@@ -174,3 +174,20 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
     height: var(--ServerSize);
 }
+
+#bd-pub-li {
+    margin: 10px 0 0 5px;
+    overflow: hidden;
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+}
+
+#bd-pub-button {
+    border-radius: .25em;
+    background: url(https://cdn.discordapp.com/attachments/476154188494143498/706213608387772496/public.png);
+    color: #ffffff;
+    font-size: 12px;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
