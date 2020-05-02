@@ -143,16 +143,6 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     margin: 0!important;
 }
 
-.layer-v9HyYc[style*="top: -30px;"], .layer-v9HyYc[style*="top: -50px;"] {
-    right: 0;
-}
-
-.layer-v9HyYc[style*="top: -50px"] {
-    right: calc(10px + var(--ServerSize)) !important;
-    left: unset !important;
-    text-align: -webkit-center;
-}
-
 .unreadMentionsIndicatorTop-gA6RCh {
     padding: 0;
     height: 20px;
