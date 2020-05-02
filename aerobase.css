@@ -2540,3 +2540,34 @@ button[role*="switch"]:after {
 .scrollerSpacer-1Rp0XE {
         height: 20px;
 }
+
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"] {
+        width: auto;
+        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706171587745021992/code.png");
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/706171587745021992/code.png");
+        margin-right: 5px
+}
+
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
+        width: auto;
+        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706171595437113424/file.png");
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/706171595437113424/file.png");
+        margin-right: 5px
+}
+
+.downloadButton-23tKQp {
+        width: auto;
+        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706174112250462259/download.png");
+}
+
+.attachmentInner-3vEpKt+a {
+        width: 25px;
+        height: 25px;
+        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706174112250462259/download.png");
+    }
