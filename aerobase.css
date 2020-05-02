@@ -1683,7 +1683,11 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .modal-3c3bKg .header-QKLPzZ .actionButton-3W1xZa {
-        float: right;
+        right: 5px;
+        top: 20px;
+        text-shadow: 0 0 3px;
+        height: 80px;
+        position: absolute;
 }
 
 .topSectionNormal-2-vo2m, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n {
@@ -2613,16 +2617,15 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
         padding: 10px 5px;
         margin-top: 5px;
         border-radius: .5em;
-    }
-    
-    .connectedAccount-36nQx7:hover, .listRow-hutiT_:hover{
+}
+
+.connectedAccount-36nQx7:hover, .listRow-hutiT_:hover {
         background: var(--grey5);
-    }
-    
-    .connectedAccounts-repVzS a {
+}
+
+.connectedAccounts-repVzS a {
         content: "";
         width: 25px;
         height: 25px;
         content: url(https://cdn.discordapp.com/attachments/476154188494143498/706277579920769055/view.png);
-    }
-    
+}
