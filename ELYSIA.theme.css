@@ -1,11 +1,12 @@
 /**
- * @name ELYSIA
- * @author ᴘᴜʀᴘʟᴇ ᴡɪᴢᴀʀᴅ#0984
- * @version 2.0 (BETA)
- * @invite SBuYeHh
- * @description An amazing RGB theme with full customization included, made by Purple Wizard.
- * @source https://github.com/GoldenLys/BetterDiscord-Elysia
- * @website https://goldenlys.github.io/ThemeGen
+* @name ELYSIA
+* @author Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ#0984
+* @version 2.0
+* @invite SBuYeHh
+* @description An amazing RGB theme with full customization included, made by Purple Wizard.
+* @source https://github.com/GoldenLys/BetterDiscord-Elysia
+* @website https://goldenlys.github.io/ThemeGen
+* @authorLink https://github.com/GoldenLys
 */
 
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");/* DO NOT REMOVE THIS LINE */
@@ -13,15 +14,6 @@
 /*  PLUGINS (optional)  */
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 /* New font for discord */
-
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
-/* This makes the list of members a little smaller and allows you to open it by hovering over it. */
-
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/NoOffline.css");
-/* Hides the offline status */
-
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HorizontalServerList.css");
-/* Makes the server list horizontal */
 
 /*  GENERAL CONFIG  */
 
@@ -49,11 +41,10 @@
 
         /*  MENUS COLORS  */
         --darkgrey: rgb(32, 32, 32);
-        --darkgrey5: rgba(14, 14, 14, 0.75);
+        --darkgrey5: rgba(6, 6, 6, .75);
         --grey: rgb(100, 100, 100);
         --darkgrey: rgb(6, 6, 6);
         --grey5: rgba(100, 100, 100, .5);
-        --darkgrey5: rgba(6, 6, 6, .75);
         --SendMessage: var(--darkgrey);
         --HoverMessage: var(--grey5);
         --ChatBox: transparent;
