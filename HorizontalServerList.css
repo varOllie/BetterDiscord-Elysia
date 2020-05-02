@@ -153,8 +153,24 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     margin: 10px 0px 0 5px;
 }
 
+.tutorialContainer-SGrQ1h+.listItem-2P_4kh .pill-3YxEhL .wrapper-sa6paO,
 .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
     height: 5px!important;
     width: 100%!important;
     margin: 0!important;
+}
+
+.layer-v9HyYc[style*="top: -30px;"], .layer-v9HyYc[style*="top: -50px;"] {
+    right: 0;
+}
+
+.layer-v9HyYc[style*="left: 918px;"] {
+    left: 650px !important
+}
+
+
+.layer-v9HyYc[style*="top: -50px"] {
+    right: calc(10px + var(--ServerSize)) !important;
+    left: unset !important;
+    text-align: -webkit-center;
 }
