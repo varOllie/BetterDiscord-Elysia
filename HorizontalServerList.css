@@ -31,15 +31,6 @@
     width: 100%;
 }
 
-#app-mount [data-ref-id=guildsnav] {
-    display: flex;
-    flex-wrap: wrap;
-    height: calc(20px + var(--ServerSize));
-    overflow-y: auto;
-    width: 100%;
-    justify-content: center;
-}
-
 #app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
     width: calc(var(--ServerSize) - 10px);
     height: calc(var(--ServerSize) - 10px);
@@ -110,6 +101,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 .tutorialContainer-1v44GL {
     margin: 10px 0 10px 15px !important;
     height: var(--ServerSize);
+    order: 0;
 }
 
 .tutorialContainer-SGrQ1h {
@@ -134,23 +126,14 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     bottom: 0;
 }
 
-.guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
-    margin: 0px !important;
-    width: auto !important;
-    height: var(--ServerSize) !important;
-}
-
 .guilds-1SWlCJ>.scrollerWrap-2lJEkd>.scroller-2FKFPG>.listItem-2P_4kh {
     background-color: var(--grey);
+    margin-left: 5px !important;
     border-radius: .35em;
 }
 
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:first-child {
     margin: 10px 5px 0 5px;
-}
-
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:not(:first-child) {
-    margin: 10px 0px 0 5px;
 }
 
 .tutorialContainer-SGrQ1h+.listItem-2P_4kh .pill-3YxEhL .wrapper-sa6paO,
@@ -164,13 +147,40 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     right: 0;
 }
 
-.layer-v9HyYc[style*="left: 918px;"] {
-    left: 650px !important
-}
-
-
 .layer-v9HyYc[style*="top: -50px"] {
     right: calc(10px + var(--ServerSize)) !important;
     left: unset !important;
     text-align: -webkit-center;
+}
+
+.unreadMentionsIndicatorTop-gA6RCh {
+    padding: 0;
+    height: 20px;
+    width: var(--ServerSize);
+    left: 15px;
+    top: calc(15px + var(--ServerSize));
+}
+
+
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:not(:first-child) {
+    margin: 10px 0 0 5px;
+    order: 1;
+}
+
+.tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-2P_4kh {
+    order: 2;
+}
+
+#app-mount [data-ref-id=guildsnav] {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(20px + var(--ServerSize));
+    overflow-y: auto;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+}
+
+.guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
+    height: var(--ServerSize);
 }

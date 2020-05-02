@@ -2261,7 +2261,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 }
 
 .guilds-1SWlCJ .scroller-2FKFPG>.listItem-2P_4kh:first-child+.listItem-2P_4kh:not([style]), .guilds-1SWlCJ .scroller-2FKFPG>div[style]:not(.listItem-2P_4kh)+.listItem-2P_4kh {
-        margin: 0px !important;
+        margin: 0px;
         width: auto !important;
 }
 
