@@ -1584,19 +1584,16 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 }
 
 .emojiButton-3uL3Aw {
-        height: 45px;
-        width: 45px;
-}
-
-.emojiButton-3uL3Aw:before {
         color: white;
         line-height: 25px;
         font-size: 25px;
+        height: 25px;
+        width: 25px;
         content: var(--Emoji);
         -webkit-text-fill-color: white;
 }
 
-.emojiButton-3uL3Aw:hover::before {
+.emojiButton-3uL3Aw:hover {
         content: var(--EmojiHover);
 }
 
@@ -2468,7 +2465,6 @@ button[role*="switch"]:after {
 
 .layerContainer-yqaFcK {
         top: calc(30px + var(--ServerSize));
-        z-index: 3001;
 }
 
 .tutorialContainer-1v44GL+div:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
@@ -2632,4 +2628,16 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
         width: 25px;
         height: 25px;
         content: url(https://cdn.discordapp.com/attachments/476154188494143498/706277579920769055/view.png);
+}
+
+.lookFilled-1h1y05.select-1Pkeg4, .input-cIJ7To {
+        background: var(--grey) !important;
+        border: none;
+        -webkit-transition: none;
+        transition: none;
+}
+
+.popout-2sKjHu {
+        border: none;
+        background: var(--darkgrey) !important;
 }
