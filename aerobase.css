@@ -105,7 +105,7 @@
 
 /* BACKGROUND */
 
-#app-mount .wrapper-21YSNc [role=group], .expandedFolderBackground-2sPsd-, .codeRedemptionRedirect-1wVR4b, .paymentPane-3bwJ6A, .paginator-166-09, .folderIconWrapper-226oVY, .message-2qRu38, .footer-1kmXd4, .header-39GIC8, .scroller-2XE8rp, .footer-3rDWdC, .footer-3mqk7D, .scroller-1IIF0A, .nowPlayingColumn-2sl4cE, .folder-21wGz3, .selected-aXhQR6 .layout-2DM8Md, .standardSidebarView-3F1I7i, .ui-tab-bar-separator, .contentRegionScroller-26nc1e, .layer-3QrUeG, .container-1r6BKw.themed-ANHk51, .scroller-1JbKMe, .app-2rEoOp, .scroller-2TZvBN, .wrapper-1Rf91z, .bg-h5JY_x, .container-PNkimc, .messages-3amgkR, .members-1998pB, .channelTextArea-rNsIhG, .panels-j1Uci_, .privateChannels-1nO12o {
+.pageWrapper-1PgVDX, #app-mount .wrapper-21YSNc [role=group], .expandedFolderBackground-2sPsd-, .codeRedemptionRedirect-1wVR4b, .paymentPane-3bwJ6A, .paginator-166-09, .folderIconWrapper-226oVY, .message-2qRu38, .footer-1kmXd4, .header-39GIC8, .scroller-2XE8rp, .footer-3rDWdC, .footer-3mqk7D, .scroller-1IIF0A, .nowPlayingColumn-2sl4cE, .folder-21wGz3, .selected-aXhQR6 .layout-2DM8Md, .standardSidebarView-3F1I7i, .ui-tab-bar-separator, .contentRegionScroller-26nc1e, .layer-3QrUeG, .container-1r6BKw.themed-ANHk51, .scroller-1JbKMe, .app-2rEoOp, .scroller-2TZvBN, .wrapper-1Rf91z, .bg-h5JY_x, .container-PNkimc, .messages-3amgkR, .members-1998pB, .channelTextArea-rNsIhG, .panels-j1Uci_, .privateChannels-1nO12o {
         background: transparent!important;
         -webkit-box-shadow: none!important;
         box-shadow: none!important;
@@ -200,7 +200,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
         margin: 0 auto;
 }
 
-.tile-2gi3tr .background-ujHpbY:hover, .divider-3573oO, .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX, div[data-ref-id="guildsnav"]>.wrapper-21YSNc, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+.barFill-23-gu-, .tile-2gi3tr .background-ujHpbY:hover, .divider-3573oO, .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX, div[data-ref-id="guildsnav"]>.wrapper-21YSNc, div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb, .bd-toasts .bd-toast::before, .checked-3_4uQ9, #bd-settings-sidebar .ui-tab-bar-item.selected:after, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .item-2hkk8m, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc, .progressBar-3u8FBM[style*="background-color: rgb(114, 137, 218);"], .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .barInner-3NDaY_, .markup-2BOw-j pre:after, .defaultIndicator-3WqGFB, .blockquoteDivider-2hH8H6, .closeButton-1tv5uR, .lookInverted-2D7oAl.colorGreen-29iAKY, .modeUnread-1zpFdA .name-3_Dsmg:before, .actionButton-VzECiy, .wrapper-1ucjTd.modeSelected-1zApJ_:after, .selected-aXhQR6.container-2Pjhx-:after, .verified-1eC5dy, .partnered-3nJayh, .actionButton-uPB8Fs, .jumpToPresentBar-9P20AM, .newMessagesBar-mujexs, .circleIconButton-jET_ig:hover, .hasMore-3e72_v, .option-96V44q.selected-rZcOL-, .topPill-30KHOu>div:nth-child(5), .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .mentioned-xhSam7:before, .actionButton-2PeQbJ:hover, .actionButton-2PeQbJ, .footer-1fjuF6:after, .reaction-1hd86g.reactionMe-wv5HKu, .circleIconButton-jET_ig.selected-ugP_am, .tooltipGreen-WdeQwd, .tooltipBlack-PPG47z, .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
         background: radial-gradient(circle, var(--animation))!important;
         background-size: 1000% 500%!important;
         -webkit-animation: K2KBG var(--time) ease infinite !important;
@@ -2673,4 +2673,53 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
 
 .tile-2gi3tr .avatarWrapper-29j3CC .avatar-VxgULZ, .tile-2gi3tr {
         border-radius: .5em !important;
+}
+
+.editingContainer-3s5xK0 {
+        min-width: 400px;
+}
+
+.overlay-4k_Q4- {
+        border: 2px dotted var(--grey);
+        -webkit-box-shadow: 0 0 0 9999px var(--darkgrey5);
+        box-shadow: 0 0 0 9999px var(--darkgrey5);
+}
+
+.bar-2Qqk5Z {
+        background: var(--darkgrey) !important;
+}
+
+.pageWrapper-1PgVDX {
+        background: transparent!important;
+}
+
+.inputPrefix-2VAOGg, .input-cIJ7To.disabled-2BKQFm {
+        color: var(--text-muted) !important;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+        border-color: var(--Unavailable);
+        opacity: 0.75;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+        border-color: var(--Unavailable);
+        opacity: 1;
+}
+
+.avatarUploaderIndicator-2G-aIZ {
+        background-color: var(--darkgrey5) !important;
+}
+
+div.item-26Dhrx:last-child[style*="background-color: rgb(240, 71, 71);"] {
+        background-color: var(--Unavailable) !important;
+        border: none!important;
+}
+
+polyline[stroke='#f04747'] {
+        stroke: var(--Unavailable) !important;
+}
+
+.perksModal-fSYqOq {
+        background: center / cover no-repeat var(--background)!important;
 }

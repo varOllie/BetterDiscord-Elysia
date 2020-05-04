@@ -112,6 +112,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     display: flex;
     contain: unset;
     width: 100%;
+    height: calc(20px + var(--ServerSize));
 }
 
 .expandedFolderIconWrapper-1xLaU- {
