@@ -1748,16 +1748,19 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         text-align: center;
 }
 
-.customStatusText-Kh6K1M, .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
+.avatarHint-1qgaV3 .avatarHintInner-Dco91E {
         font-size: 0;
 }
 
-.customStatusText-Kh6K1M::after {
-        font-size: 16px;
-        white-space: normal;
-        text-align: center;
-        color: var(--MainColor);
-        content: var(--EditStatus)!important;
+#status-picker-custom-status .status-1fhblQ { line-height: 0; font-size: 0;}
+
+#status-picker-custom-status .status-1fhblQ:after {
+    font-size: 14px;
+    line-height: 18px;
+    white-space: normal;
+    text-align: center;
+    color: var(--MainColor);
+    content: var(--EditStatus)!important;
 }
 
 .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after {
