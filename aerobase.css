@@ -24,7 +24,7 @@
         --ChatBox: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
         --HoverMessage: var(--darkgrey5);
-        --JoinUS: 'Hey! Wanna have some fun.. Join US !';
+        --JoinUs: 'Hey! Wanna have some fun.. Join US !';
         --AddNewServer: '➕ Add a new server';
         --Close: '🔴';
         --Resize: '🔵';
@@ -1136,7 +1136,7 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
 }
 
 .h5-18_1nd.title-3sZWYQ.header-2BTCnc:after {
-        content: var(--JoinUS);
+        content: var(--JoinUs);
         width: 100%;
         padding: 10px;
         padding-left: 0;
@@ -1282,13 +1282,13 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
         box-shadow: none!important;
 }
 
-.refresh-1riPrX .header-3ZP1MY {
+div[aria-label="Add a Server"] .header-3ZP1MY {
         font-size: 0;
         font-weight: 0;
         line-height: 0;
 }
 
-.refresh-1riPrX .header-3ZP1MY:before {
+div[aria-label="Add a Server"] .header-3ZP1MY:before {
         content: var(--AddNewServer);
         text-align: -webkit-center;
         width: 100%;
@@ -2330,9 +2330,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 }
 
 .embed-IeVjo6 .embedAuthorNameLink-1gVryT {
-        position: absolute;
-        right: 10px;
-        top: 10px;
         font-size: 15px;
 }
 
@@ -2363,7 +2360,6 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
         font-size: 15px;
         text-align: center;
         font-weight: bold;
-        margin-top: 15px;
 }
 
 .embedVideo-3nf0O9:hover .embedVideoActions-O6vR7W {
@@ -2771,3 +2767,22 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/707253634727018496/text-musi.png");
         margin-right: 5px
 }
+
+.statusItem-33LqPf svg {
+        width: 20px;
+        height: 20px;
+        border-radius: .25em;
+    }
+    
+    .statusItem-33LqPf .description-2L932D {
+        font-size: 0;
+        line-height: 0;
+    }
+    
+    .statusItem-33LqPf .status-1fhblQ {
+        text-align: center;
+    }
+    
+    .colorDefault-2K3EoJ.focused-3afm-j {
+        background-color: var(--grey);
+    }
