@@ -2722,21 +2722,9 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background-color: var(--grey);
 }
 
-.panels-j1Uci_ .container-3baos1 .button-14-BFJ,
-.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg {
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ{
     width: 27px !important;
     height: 27px !important;
-}
-
-.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 2px;
-    width: 30px;
-    height: 30px;
-    z-index: 10;
 }
 
 .panels-j1Uci_ .container-3baos1 .button-14-BFJ>.contents-18-Yxp::after {
@@ -2745,7 +2733,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     content: " ";
     top: 0;
     bottom: 0;
-    left: 2px;
+    left: 0;
     right: 0;
     font-size: 20px;
     line-height: 27px;

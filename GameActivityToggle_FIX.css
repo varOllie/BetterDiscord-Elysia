@@ -11,13 +11,5 @@
 }
 
 .panels-j1Uci_ .container-3baos1 button:nth-child(4)>.contents-18-Yxp::after {
-  position: absolute;
-  z-index: 1;
   content: var(--Options);
-  top: 0;
-  bottom: 0;
-  left: 2px;
-  right: 0;
-  font-size: 20px;
-  line-height: 35px;
 }
