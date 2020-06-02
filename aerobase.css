@@ -17,7 +17,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '2.0 (BETA)';
+        --version: '2.1';
         --time: 5s;
         --TitleBG: var(--darkgrey5);
         --Sidebar: var(--darkgrey5);
@@ -85,7 +85,7 @@
         position: static;
 }
 
-.buttons-3JBrkn>button:not(.emojiButton-3uL3Aw) svg.icon-3D60ES:not(.icon-GhnIRB), .connectedAccounts-repVzS svg.connectedAccountOpenIcon-2cNbq5, .header-QKLPzZ .additionalActionsIcon-1FoUlE path, .tooltipPointer-3ZfirK, .buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw), .chat-3bRxxu>.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1>svg, .closeButton-1tv5uR svg, .title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1.focusable-1YV_-H>.icon-22AiRD, .BE-badges:after, .wrapper-1Rf91z .scrollerWrap-2lJEkd>div>div:nth-child(1)>div.listItemWrapper-3X98Pc>div>svg>foreignObject>a>div, .welcomeMessage-ULm0mo .emptyMessage-3-SPAD, .welcomeMessage-ULm0mo .itemContainer-1tq6cd, div[style*="flex: 0 1 323px"], .guildDetail-1nRKNE .channel-2hXUOG svg, .guildIcon-GuAC7C, .listItem-2P_4kh.bd-guild-separator, .closedFolderIconWrapper-15K9MK div, .chatContent-a9vAAp .attachButton-2WznTc>div>svg, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, .wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg:not(.actionIcon-2Hi9ZG), .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .panels-j1Uci_ .container-3baos1 button:nth-child(3) svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discord.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg, .panels-j1Uci_ .container-3baos1 .button-14-BFJ path, .buttons-3JBrkn>button:not(.emojiButton-3uL3Aw) svg.icon-3D60ES:not(.icon-GhnIRB), .connectedAccounts-repVzS svg.connectedAccountOpenIcon-2cNbq5, .header-QKLPzZ .additionalActionsIcon-1FoUlE path, .tooltipPointer-3ZfirK, .buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw), .chat-3bRxxu>.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1>svg, .closeButton-1tv5uR svg, .title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1.focusable-1YV_-H>.icon-22AiRD, .BE-badges:after, .wrapper-1Rf91z .scrollerWrap-2lJEkd>div>div:nth-child(1)>div.listItemWrapper-3X98Pc>div>svg>foreignObject>a>div, .welcomeMessage-ULm0mo .emptyMessage-3-SPAD, .welcomeMessage-ULm0mo .itemContainer-1tq6cd, div[style*="flex: 0 1 323px"], .guildDetail-1nRKNE .channel-2hXUOG svg, .guildIcon-GuAC7C, .listItem-2P_4kh.bd-guild-separator, .closedFolderIconWrapper-15K9MK div, .chatContent-a9vAAp .attachButton-2WznTc>div>svg, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc svg a>div, .wrapper-1ucjTd[aria-label*="(text channel)"] .content-3at_AU svg:not(.actionIcon-2Hi9ZG), .wrapper-1ucjTd[aria-label*="(voice channel)"] .content-3at_AU svg, .inner-MADQqc .attachWrapper-2TRKBi svg, .expandedFolderIconWrapper-1xLaU- svg, svg.flowerStar-1GeTsn, .addButtonIcon-3u-3Hu polygon, .emojiButton-3uL3Aw>div>.sprite-2iCowe, .sidebar-2K8pFh>div.panels-j1Uci_>div>div>button:nth-child(3)>.contents-18-Yxp>svg, .pro-1T8RK7, .tip-2ab612, .total-3tKGEB:after, .footer-1kmXd4, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/store"], .modeUnread-1zpFdA .unread-3zKkbm, .guildSeparator-3s64Iy, .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .or-3THJsp, #bd-settings-sidebar .ui-tab-bar-separator, .userSettingsSecurityImage-21pI_Q, .option-96V44q:after, .option-96V44q.selected-rZcOL-:after, .socialLinks-3jqNFy, .activity-2Gy-9S .icon-15YQ1T, .menu-Sp6bN1>.separator-2zcjq8, .helper-2c73HK, .statusIconText-3b4TkH>div, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"] .content-3QAtGj, .sidebar-2K8pFh .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/library"] .content-3QAtGj, .svg-1X37T1>mask, .children-19S4PO:after, .wordmark-2iDDfm, .form-2fGMdU:before, a[href="https://support.discord.com"], .protip-YaFfgO, .base-gE7OpD .ellipsis-19qdx6, .unreadPillCap-3_K2q2 {
         display: none!important;
 }
 
@@ -1400,14 +1400,6 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         margin-bottom: 50px;
 }
 
-.panels-j1Uci_>.container-3baos1 {
-        height: 48px;
-        background-color: var(--SendMessage);
-        padding: 0 .35em !important;
-        border-radius: 0 .35em 0 0;
-        margin: 0em .5em 0 0em;
-}
-
 .button-38aScr:disabled {
         color: transparent
 }
@@ -1504,7 +1496,13 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         z-index: 2;
 }
 
-.rolesList-22qj2L li:nth-child(1) {
+
+
+.channel-2QD9_O {
+        max-width: 100%;
+}
+
+.rolesList-22qj2L .role-2irmRk:first-child {
         padding: 15px 10px 15px 2px;
         border: 1px solid;
         border-width: 1px 1px 1px 5px;
@@ -1512,14 +1510,10 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         height: 30px;
 }
 
-.rolesList-22qj2L li>.roleName-32vpEy {
+.rolesList-22qj2L .roleName-32vpEy {
         width: 100%;
         max-width: 100%;
         text-align: center;
-}
-
-.channel-2QD9_O {
-        max-width: 100%;
 }
 
 .rolesList-22qj2L .actionButton-VzECiy {
@@ -2034,68 +2028,6 @@ polyline[stroke*="#7289da"] {
         stroke: white!important;
 }
 
-.panels-j1Uci_ .container-3baos1 button:nth-child(3)>.contents-18-Yxp::after {
-        position: absolute;
-        z-index: 1;
-        content: var(--Options);
-        top: 0;
-        bottom: 0;
-        left: 2px;
-        right: 0;
-        font-size: 20px;
-        line-height: 35px;
-}
-
-.panels-j1Uci_ .container-3baos1 button:nth-child(2) path:first-child, .panels-j1Uci_ .container-3baos1 button:nth-child(2) path:nth-child(2), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(1), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(2), .panels-j1Uci_ .container-3baos1 button:nth-child(1) path:nth-child(3) {
-        display: none;
-}
-
-.panels-j1Uci_ .container-3baos1 button:nth-child(2)>.contents-18-Yxp::after {
-        position: absolute;
-        z-index: 1;
-        content: var(--Headset);
-        top: 0;
-        bottom: 0;
-        left: 2px;
-        right: 0;
-        font-size: 20px;
-        line-height: 35px;
-}
-
-.panels-j1Uci_ .container-3baos1 button:nth-child(2) svg {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 2px;
-        width: 30px;
-        height: 30px;
-        z-index: 10;
-}
-
-.panels-j1Uci_ .container-3baos1 button:nth-child(1)>.contents-18-Yxp::after {
-        position: absolute;
-        z-index: 1;
-        content: var(--Micro);
-        top: 0;
-        bottom: 0;
-        left: 2px;
-        right: 0;
-        font-size: 20px;
-        line-height: 35px;
-}
-
-.panels-j1Uci_ .container-3baos1 button:nth-child(1) svg {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 2px;
-        width: 30px;
-        height: 30px;
-        z-index: 10;
-}
-
 .withFrame-haYltI {
         padding-top: 4px;
         margin-top: 0;
@@ -2434,10 +2366,6 @@ button[role*="switch"]:after {
 
 #GameActivityToggleBtn[aria-checked=true]:after, button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
         background: var(--Online) !important;
-}
-
-.panels-j1Uci_ .container-3baos1 button svg {
-        display: none;
 }
 
 .item-PXvHYJ[style*="color: rgb(240, 71, 71)"], .strikethrough-1n4ekb, .strikethrough-3Wiitd {
@@ -2792,4 +2720,64 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .colorDefault-2K3EoJ.focused-3afm-j {
         background-color: var(--grey);
+}
+
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ,
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg {
+    width: 27px !important;
+    height: 27px !important;
+}
+
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+}
+
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ>.contents-18-Yxp::after {
+    position: absolute;
+    z-index: 1;
+    content: " ";
+    top: 0;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.panels-j1Uci_ .container-3baos1 button:nth-child(1)>.contents-18-Yxp::after {
+    content: var(--Micro);
+}
+
+.panels-j1Uci_ .container-3baos1 button:nth-child(2)>.contents-18-Yxp::after {
+    content: var(--Headset);
+}
+
+.panels-j1Uci_ .container-3baos1 button:nth-child(3)>.contents-18-Yxp::after {
+    content: var(--Options);
+}
+
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ svg,
+.panels-j1Uci_ .container-3baos1 .button-14-BFJ path {
+    display: none;
+}
+
+.panels-j1Uci_>.container-3baos1 {
+    position: relative;
+    height: 48px;
+    background-color: var(--SendMessage);
+    padding: 0 .35em 5px .35em !important;
+    border-radius: 0 .35em 0 0;
+    margin: 0em .5em 0px 0em;
+}
+.panels-j1Uci_>.container-3baos1 .nameTag-3uD-yy+.flex-1xMQg5.horizontal-1ae9ci {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
 }
