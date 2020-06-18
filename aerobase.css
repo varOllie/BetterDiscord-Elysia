@@ -2783,3 +2783,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         font-size: 14px;
         opacity: .85;
 }
+
+.body-3iLsc4, .footer-1fjuF6, .footer-1FPmkC {
+        background-color: var(--darkgrey) !important;
+}
