@@ -141,8 +141,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     margin: 10px 5px 0 5px;
 }
 
-.tutorialContainer-SGrQ1h+.listItem-2P_4kh .pill-3YxEhL .wrapper-sa6paO,
-.tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
+.tutorialContainer-SGrQ1h+.listItem-2P_4kh .pill-3YxEhL .wrapper-sa6paO, .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
     height: 5px!important;
     width: 100%!important;
     margin: 0!important;
@@ -155,7 +154,6 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     left: 15px;
     top: calc(15px + var(--ServerSize));
 }
-
 
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN>div[style*="opacity: 1;"]:not(:first-child) {
     margin: 10px 0 0 5px;
@@ -204,4 +202,8 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
     width: var(--ServerSize);
     left: 15px;
     top: calc(15px + var(--ServerSize));
+}
+
+.panels-j1Uci_>.container-3baos1 {
+    border-radius: 0 .35em 0 0;
 }
