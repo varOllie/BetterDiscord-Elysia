@@ -1,6 +1,7 @@
 Download : https://betterdiscord.net/ghdl?id=3061
 
 Create your own theme : https://goldenlys.github.io/ThemeGen
+  Or just open the theme file with a text editor
 
 ## ELYSIA
 ![ELYSIA](https://cdn.discordapp.com/attachments/706161723123695647/706162963903545404/unknown.png)
