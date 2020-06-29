@@ -15,13 +15,13 @@ Download : https://betterdiscord.net/ghdl?id=3061
 ![DEMO](https://cdn.discordapp.com/attachments/698171927839244329/705812426586718218/unknown.png)
 this one is available on my server.
 
-## Config example 2 : Faith Of The Soul (Destiny Game)
+## Config example : Faith Of The Soul (Destiny Game)
 ![DESTINY](https://cdn.discordapp.com/attachments/706161723123695647/725142362669449297/unknown.png)
 
-## Config example 3 : The Good View
+## Config example : The Good View
 ![TheGoodView](https://cdn.discordapp.com/attachments/706161723123695647/706336795108835378/unknown.png)
 
-## Config example 3 : SAO (Anime)
+## Config example : SAO (Anime)
 ![SAO](https://cdn.discordapp.com/attachments/706161723123695647/706162384191881246/unknown.png)
 
 More themes presets are available on my support server https://discord.gg/SBuYeHh
