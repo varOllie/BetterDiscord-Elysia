@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.guilds-1SWlCJ .scroller-2TZvBN {
+    display: flex;
+}
+
 #app-mount .wrapper-21YSNc [role=group] a.wrapper-1BJsBx>.icon-27yU2q {
     width: calc(var(--ServerSize) - 10px);
     height: calc(var(--ServerSize) - 10px);

@@ -980,8 +980,8 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
         color: white;
 }
 
-.info-1VyQPT .versionHash-2gXjIB:before {
-        content: "Discord v";
+.info-1VyQPT div:nth-child(2)::before {
+        content: "Discord "!important;
 }
 
 .info-1VyQPT>div:nth-child(3):after, .info-1VyQPT>div:nth-child(4):after {
