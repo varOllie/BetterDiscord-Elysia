@@ -2881,7 +2881,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 }
 
 .container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"]::after {
-        content: "Games & Design";
+        content: "Official Support Server for ";
         position: absolute;
         font-size: 16px;
         line-height: 90px;
@@ -2891,7 +2891,16 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 0;
         left: 0;
         right: 0;
-        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/671481699871490078/neon.jpg) !important;
+        background: center / cover no-repeat var(--background)! important;
+}
+
+.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .header-2o-2hj:after {
+        content: var(--title) ' v' var(--version);
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0;
+        text-align: center;
 }
 
 .container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::after {
@@ -2904,7 +2913,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 15px;
         left: 6.5px;
         z-index: 1;
-        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/725111207488520201/Harmony.gif) !important;
+        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727639422245404742/tumblr_nbazwz2v7C1txeruoo1_r1_500.gif) !important;
 }
 
 .container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .guildIconContainer-E1JUVt {
