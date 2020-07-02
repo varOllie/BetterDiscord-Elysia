@@ -183,6 +183,14 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
         margin-top: 0px;
 }
 
+.app-1q1i1E {
+        position: fixed;
+        top: 22px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+
 .scroller-305q3I {
         background-color: transparent;
 }
@@ -1524,7 +1532,7 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
         background-color: var(--grey);
-        border-radius: .25em .25em 0 0;
+        border-radius: 5px;
         height: 30px;
 }
 
@@ -2983,7 +2991,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         display: none;
 }
 
-.childWrapper-anI2G9, .wrapper-1BJsBx, .icon-27yU2q, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc>div {
+.svg-1X37T1, .wrapper-25eVIn, .childWrapper-anI2G9, .tutorialContainer-1v44GL>.listItem-2P_4kh>.listItemWrapper-3X98Pc>div {
         width: var(--ServerSize);
         height: var(--ServerSize);
 }
