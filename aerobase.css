@@ -2688,15 +2688,19 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         line-height: 27px;
 }
 
-.panels-j1Uci_ .container-3baos1 button:nth-child(1)>.contents-18-Yxp::after {
-        content: var(--Micro);
+.panels-j1Uci_ .container-3baos1 button:nth-last-child(4)>.contents-18-Yxp::after {
+        content: "🎮" !important;
 }
 
-.panels-j1Uci_ .container-3baos1 button:nth-child(2)>.contents-18-Yxp::after {
-        content: var(--Headset);
+.panels-j1Uci_ .container-3baos1 button:nth-last-child(3)>.contents-18-Yxp::after {
+        content: var(--Micro) !important;
 }
 
-.panels-j1Uci_ .container-3baos1 button:nth-child(3)>.contents-18-Yxp::after {
+.panels-j1Uci_ .container-3baos1 button:nth-last-child(2)>.contents-18-Yxp::after {
+        content: var(--Headset) !important;
+}
+
+.panels-j1Uci_ .container-3baos1 button:nth-last-child(1)>.contents-18-Yxp::after {
         content: var(--Options);
 }
 
