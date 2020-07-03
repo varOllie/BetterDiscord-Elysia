@@ -1658,8 +1658,16 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         top: 20px;
 }
 
-.modal-3c3bKg .header-QKLPzZ .actionButton-3W1xZa {
+.modal-3c3bKg .header-QKLPzZ .actionButton-3W1xZa:last-child {
         right: 5px;
+        top: 20px;
+        text-shadow: 0 0 3px;
+        height: 80px;
+        position: absolute;
+}
+
+.modal-3c3bKg .header-QKLPzZ .actionButton-3W1xZa:first-child {
+        right: 85px;
         top: 20px;
         text-shadow: 0 0 3px;
         height: 80px;
