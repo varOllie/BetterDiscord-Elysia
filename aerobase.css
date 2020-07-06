@@ -2868,7 +2868,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background-color: transparent;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"]::before, .container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::before {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"]::before, .container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::before {
         position: absolute;
         display: flex;
         content: "";
@@ -2879,21 +2879,21 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         flex: 1 1 auto;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"]::before {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"]::before {
         top: 0;
         border-radius: 0 5px 0 0;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::before {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::before {
         bottom: 0;
         border-radius: 0 0 5px 0;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u {
         min-height: 135px;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"]::after {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"]::after {
         content: "Official Support Server for ";
         position: absolute;
         font-size: 16px;
@@ -2907,7 +2907,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: center / cover no-repeat var(--background)! important;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .header-2o-2hj:after {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .header-2o-2hj:after {
         content: var(--title) ' v' var(--version);
         position: absolute;
         top: 55px;
@@ -2916,7 +2916,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         text-align: center;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::after {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .container-2Rl01u::after {
         content: "";
         position: absolute;
         border-radius: 5px;
@@ -2929,7 +2929,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727639422245404742/tumblr_nbazwz2v7C1txeruoo1_r1_500.gif) !important;
 }
 
-.container-PNkimc[aria-label="ᴘᴜʀᴘʟᴇ Community"] .guildIconContainer-E1JUVt {
+.container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .guildIconContainer-E1JUVt {
         display: none;
 }
 
@@ -2938,7 +2938,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         color: #fff;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"]::before, .container-PNkimc[aria-label="BetterDiscord"] .container-2Rl01u::before, .container-PNkimc[aria-label="BetterDiscord2"]::before, .container-PNkimc[aria-label="BetterDiscord2"] .container-2Rl01u::before {
+.container-PNkimc[aria-label*="BetterDiscord"]::before, .container-PNkimc[aria-label*="BetterDiscord"] .container-2Rl01u::before, .container-PNkimc[aria-label*="BetterDiscord2"]::before, .container-PNkimc[aria-label*="BetterDiscord2"] .container-2Rl01u::before {
         position: absolute;
         display: flex;
         content: "";
@@ -2949,21 +2949,21 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         flex: 1 1 auto;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"]::before, .container-PNkimc[aria-label="BetterDiscord2"]::before {
+.container-PNkimc[aria-label*="BetterDiscord"]::before, .container-PNkimc[aria-label*="BetterDiscord2"]::before {
         top: 0;
         border-radius: 0 5px 0 0;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"] .container-2Rl01u::before, .container-PNkimc[aria-label="BetterDiscord2"] .container-2Rl01u::before {
+.container-PNkimc[aria-label*="BetterDiscord"] .container-2Rl01u::before, .container-PNkimc[aria-label*="BetterDiscord2"] .container-2Rl01u::before {
         bottom: 0;
         border-radius: 0 0 5px 0;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"] .container-2Rl01u, .container-PNkimc[aria-label="BetterDiscord2"] .container-2Rl01u {
+.container-PNkimc[aria-label*="BetterDiscord"] .container-2Rl01u, .container-PNkimc[aria-label*="BetterDiscord2"] .container-2Rl01u {
         min-height: 135px;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"]::after, .container-PNkimc[aria-label="BetterDiscord2"]::after {
+.container-PNkimc[aria-label*="BetterDiscord"]::after, .container-PNkimc[aria-label*="BetterDiscord2"]::after {
         content: "BandageBD";
         position: absolute;
         font-size: 16px;
@@ -2977,7 +2977,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727526059314118686/header.png) !important;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"] .container-2Rl01u::after, .container-PNkimc[aria-label="BetterDiscord2"] .container-2Rl01u::after {
+.container-PNkimc[aria-label*="BetterDiscord"] .container-2Rl01u::after, .container-PNkimc[aria-label*="BetterDiscord2"] .container-2Rl01u::after {
         content: "";
         position: absolute;
         border-radius: 5px;
@@ -2990,7 +2990,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727524760203952189/BetterDiscord.png) !important;
 }
 
-.container-PNkimc[aria-label="BetterDiscord"] .guildIconContainer-E1JUVt, .container-PNkimc[aria-label="BetterDiscord2"] .guildIconContainer-E1JUVt {
+.container-PNkimc[aria-label*="BetterDiscord"] .guildIconContainer-E1JUVt, .container-PNkimc[aria-label*="BetterDiscord2"] .guildIconContainer-E1JUVt {
         display: none;
 }
 
