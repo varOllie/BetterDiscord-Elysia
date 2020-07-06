@@ -3071,3 +3071,37 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         font-size: 20px;
         line-height: 30px;
 }
+
+.tabBar-2MuP6- {
+        align-items: center;
+        justify-content: center;
+}
+
+.listeningActionsProfile-1fYwru {
+        margin-left: 10px;
+        display: block;
+}
+
+.listeningActionsProfile-1fYwru button {
+        border-radius: 5px;
+        border: none;
+        background: var(--grey5);
+        width: 100% !important;
+        margin: 0 !important;
+        height: 35px;
+        padding: 5px 10px;
+        max-width: 100%;
+}
+
+.listeningActionsProfile-1fYwru button .contents-18-Yxp {
+        margin: 0;
+}
+
+.listeningActionsProfile-1fYwru button:not(:first-child) {
+        margin-top: 10px !important;
+}
+
+.listeningActionsProfile-1fYwru button:not(:first-child):after {
+        content: "Listen Along";
+        margin-left: 5px;
+}
