@@ -43,6 +43,8 @@
         --Watermark: 'Made with 💖 by Purple Wizard';
         --EditStatus: 'Put another status';
         --WriteMessage: 'Write a message...';
+        --TaggedName: 'YOU';
+        --ListenAlong: 'Listen Along';
         --Folders: '📁';
         --FoldersOpen: '💠';
         --ServerSize: 45px;
@@ -3129,7 +3131,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 }
 
 .listeningActionsProfile-1fYwru button:not(:first-child):after {
-        content: "Listen Along";
+        content: var(--ListeAlong);
         margin-left: 5px;
 }
 
@@ -3150,7 +3152,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         -webkit-text-fill-color: white;
         font-weight: bold;
         background: var(--grey5) !important;
-        content: "YOU";
+        content: var(--TaggedName);
         width: fit-content;
         padding: 2.5px 7.5px;
         border-radius: 5px;
@@ -3170,4 +3172,8 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, .theme-dark [class*='topSection'] .creationDate, .theme-light .header-2BwW8b.size16-14cGz5:not(.headerNormal-T_seeN) .creationDate, .theme-dark .header-2BwW8b.size16-14cGz5 .creationDate, .discriminator-xUhQkU, .headerTag-2pZJzA, .activityProfile-2bJRaP .content-3JfFJh {
         color: white !important;
         opacity: 1!important;
+}
+
+.details-38sfDr {
+        font-weight: 600;
 }
