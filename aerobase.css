@@ -381,7 +381,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 }
 
 .headerXbox-3G-4PF:before, .headerPlaying-j0WQBV:before, .headerStreaming-2FjmGz:before, .headerSpotify-zpWxgT:before {
-        margin-bottom: 7.5px;
+        margin-bottom: 0px;
 }
 
 .topSectionNormal-2-vo2m, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n {
@@ -3159,4 +3159,15 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .sidebar-2K8pFh .listContent-2_qb-y .containerDefault-1ZnADq .numberBadge-2s8kKX {
         min-width: 20px !important;
         min-height: 20px !important;
+}
+
+.activity-11LB_k {
+        background: linear-gradient(180deg, var(--darkgrey5), transparent);
+        border-radius: 5px 5px 0 0;
+        padding: 10px;
+}
+
+.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, .theme-dark [class*='topSection'] .creationDate, .theme-light .header-2BwW8b.size16-14cGz5:not(.headerNormal-T_seeN) .creationDate, .theme-dark .header-2BwW8b.size16-14cGz5 .creationDate, .discriminator-xUhQkU, .headerTag-2pZJzA, .activityProfile-2bJRaP .content-3JfFJh {
+        color: white !important;
+        opacity: 1!important;
 }
