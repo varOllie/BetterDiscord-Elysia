@@ -357,22 +357,6 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
         padding-bottom: 1px;
 }
 
-.headerXbox-3G-4PF, .topSectionXbox-3fWLjS {
-        background: center / cover no-repeat var(--Xbox)!important;
-}
-
-.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-        background: center / cover no-repeat var(--Playing)!important;
-}
-
-.headerStreaming-2FjmGz, .topSectionStreaming-1Tpf5X {
-        background: center / cover no-repeat var(--Streaming)!important;
-}
-
-.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-        background: center / cover no-repeat var(--Spotify)!important;
-}
-
 .headerXbox-3G-4PF:after, .headerPlaying-j0WQBV:after, .headerSpotify-zpWxgT:after, .headerStreaming-2FjmGz:after, .headerNormal-T_seeN:after {
         position: relative;
         display: flex;
@@ -1657,6 +1641,8 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
 
 .topSectionNormal-2-vo2m, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P, .topSectionXbox-3fWLjS, .topSectionPlaying-1J5E4n {
         padding-top: 30px;
+        position: relative;
+        background: transparent !important;
 }
 
 .topSectionNormal-2-vo2m:after, .topSectionStreaming-1Tpf5X:after, .topSectionSpotify-1lI0-P:after, .topSectionXbox-3fWLjS:after, .topSectionPlaying-1J5E4n:after {
@@ -1668,6 +1654,34 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         -webkit-box-flex: 1;
         flex: 1 1 auto;
         background: linear-gradient(180deg, transparent 0%, var(--darkgrey) 50%);
+}
+
+.topSectionNormal-2-vo2m:before, .topSectionStreaming-1Tpf5X:before, .topSectionSpotify-1lI0-P:before, .topSectionXbox-3fWLjS:before, .topSectionPlaying-1J5E4n:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        filter: blur(2.5px);
+        margin-bottom: 15px;
+}
+
+.headerXbox-3G-4PF, .topSectionXbox-3fWLjS:before {
+        background: center / cover no-repeat var(--Xbox)!important;
+}
+
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n:before {
+        background: center / cover no-repeat var(--Playing)!important;
+}
+
+.headerStreaming-2FjmGz, .topSectionStreaming-1Tpf5X:before {
+        background: center / cover no-repeat var(--Streaming)!important;
+}
+
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P:before {
+        background: center / cover no-repeat var(--Spotify)!important;
 }
 
 .note-3kmerW textarea {
@@ -2399,14 +2413,18 @@ button[role*="switch"]:after {
 }
 
 .channelHeader-3Gd2xq {
-        background: var(--grey);
-        border-radius: .25em .25em 0 0;
+        background: var(--darkgrey);
+        border-radius: 0;
 }
 
 .messageContainer-gbhlwo {
         background-color: var(--grey5);
-        border-radius: 0 0 .25em.25em;
+        border-radius: 5px;
         padding: 10px;
+}
+
+.channelHeader-3Gd2xq .closeButton-1152MI {
+        border-radius: 5px;
 }
 
 .scrollerSpacer-1Rp0XE {
@@ -3111,12 +3129,12 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         height: 75px;
 }
 
-.mentioned-xhSam7 .mention {
+.mentioned-xhSam7 .mention[style*="background: transparent !important;"] {
         font-size: 0;
         line-height: 0;
 }
 
-.mentioned-xhSam7 .mention:after {
+.mentioned-xhSam7 .mention[style*="background: transparent !important;"]:after {
         font-size: 14px;
         line-height: 16px;
         color: white;
@@ -3125,6 +3143,11 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         background: var(--grey5) !important;
         content: "YOU";
         width: fit-content;
-        padding: 5px 7.5px;
+        padding: 2.5px 7.5px;
         border-radius: 5px;
+}
+
+.sidebar-2K8pFh .listContent-2_qb-y .containerDefault-1ZnADq .numberBadge-2s8kKX {
+        min-width: 20px !important;
+        min-height: 20px !important;
 }
