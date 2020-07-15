@@ -3177,3 +3177,31 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .details-38sfDr {
         font-weight: 600;
 }
+
+.emptyChannelIcon-3IXV5M {
+        width: 60px;
+        height: 60px;
+        margin-bottom: -45px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: var(--grey5);
+        background-image: none;
+}
+
+.emptyChannelIcon-3IXV5M:before {
+        content: var(--Channel);
+        line-height: 60px;
+        font-size: 35px;
+}
+
+.emptyChannelIcon-3IXV5M+.header-1IGyt4, .emptyChannelIcon-3IXV5M+.header-1IGyt4+.description-wKrf4z {
+        font-size: 0;
+        line-height: 0;
+}
+
+.emptyChannelIcon-3IXV5M+.header-1IGyt4:before {
+        margin-left: 65px;
+        content: var(--WelcomeMessage);
+        line-height: 24px;
+        font-size: 24px;
+}
