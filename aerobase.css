@@ -54,7 +54,7 @@
         --header-primary: white;
         --header-secondary: white;
         --text-normal: white;
-        --text-muted: rgba(255, 255, 255, .5);
+        --text-muted: rgba(255, 255, 255, .85);
         --text-link: var(--Primary);
         --channels-default: white;
         --interactive-normal: white;
@@ -1295,6 +1295,7 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
         border-radius: 0 0 .5em .5em;
         text-align: center;
         background-color: var(--darkgrey5);
+        position: initial;
 }
 
 .markup-2BOw-j a {
@@ -3232,10 +3233,26 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .emptyChannelIcon-3IXV5M+.header-1IGyt4:before {
         margin-left: 65px;
         content: var(--WelcomeMessage);
-        line-height: 24px;
+        line-height: 26px;
         font-size: 24px;
+        display: block;
 }
 
 .note-QfFU8y textarea, .note-3HfJZ5 textarea, .userPopout-3XzG_A input {
         background-color: transparent !important;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item {
+        color: white!important;
+}
+
+.bd-addon-list .bd-addon-card {
+        background-color: var(--grey5) !important;
+        color: white !important;
+        border-color: transparent !important;
+}
+
+.bd-addon-list .bda-description {
+        color: white!important;
+        opacity: .85;
 }

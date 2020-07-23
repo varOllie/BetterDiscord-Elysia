@@ -1,6 +1,6 @@
 /**
 * @name ELYSIA
-* @author Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ#0984
+* @author Purple Wizard#0984
 * @version 2.2
 * @invite SBuYeHh
 * @description An amazing RGB theme with full customization included, made by Purple Wizard.
@@ -13,7 +13,9 @@
 
 /*  PLUGINS (optional)  */
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
-/* New font for discord */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/NoOffline.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HorizontalServerList.css");
 
 /*  GENERAL CONFIG  */
 
