@@ -1278,11 +1278,12 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
         background: var(--darkgrey5)!important;
 }
 
-.row-rrHHJU {
+.row-rrHHJU, .button-F9qN4n {
         border-radius: .5em;
 }
 
 .embedFull-2tM8-- {
+        max-width: unset;
         border-left: 4px solid var(--grey);
         background: var(--darkgrey5);
 }
@@ -1432,10 +1433,22 @@ div.userSettingsAccount-2eMFVR>div>.userInfoViewing-16kqK3>div>div:nth-child(2)>
         padding: 0;
 }
 
-.body-GmmuPm, .panels-j1Uci_>.container-1giJp5 {
+.body-GmmuPm, .panels-j1Uci_>.container- {
         background-color: var(--SendMessage);
         height: unset;
         padding: 0em .5em 0em .5em;
+        border-radius: 0 .35em .35em 0;
+        margin: 0em .5em .25em 0em;
+}
+
+button[style="font-family: glue1-spoticon;"] {
+        font-family: glue1-spoticon!important;
+}
+
+.container-6sXIoE {
+        background-color: var(--SendMessage);
+        height: unset;
+        padding: .5em .5em 0em .5em;
         border-radius: 0 .35em .35em 0;
         margin: 0em .5em .25em 0em;
 }
