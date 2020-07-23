@@ -1,7 +1,7 @@
 /**
 * @name ELYSIA
 * @author Pᴜʀᴘʟᴇ Wɪᴢᴀʀᴅ#0984
-* @version 2.0
+* @version 2.2
 * @invite SBuYeHh
 * @description An amazing RGB theme with full customization included, made by Purple Wizard.
 * @source https://github.com/GoldenLys/BetterDiscord-Elysia
@@ -64,13 +64,16 @@
         --Channel: "💬";
         --Voice: "🔊";
         --Community: "purpies";
-        --WelcomeMessage: "Theme base designed by Purple Wizard.";
+        --WelcomeMessage: "✨ Welcome to ELYSIA, designed by Purple Wizard.";
         --Watermark: "Made with 💖 by Purple Wizard";
         --EditStatus: "Put another status";
         --Folders: "📁";
         --FoldersOpen: "💠";
         --Micro: "🎙️";
         --Headset: "🎧";
+        --WriteMessage: 'Write a message...';
+        --TaggedName: 'YOU';
+        --ListenAlong: 'Listen Along';
 }
 
 /*END OF CONFIG*/
