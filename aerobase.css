@@ -5,6 +5,7 @@
         --font: 'Quicksand';
         --Primary: rgb(130, 0, 216);
         --animation: var(--Primary), rgb(0, 225, 255);
+        --StreamingColor: rgb(78, 0, 180);
         --Online: rgb(0, 255, 136);
         --Idle: rgb(0, 99, 156);
         --Unavailable: rgb(228, 15, 0);
@@ -17,7 +18,7 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '2.2';
+        --version: '2.3';
         --time: 5s;
         --TitleBG: var(--darkgrey5);
         --Sidebar: var(--darkgrey5);
@@ -984,9 +985,8 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 .privateChannels-1nO12o>div>div>span>a>div>.avatar-3uk_u9>div>svg>foreignObject, div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
         fill: var(--Offline)!important;
 }
-
 .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], rect[fill="#593695"] {
-        fill: var(--Streaming) !important;
+      fill: var(--StreamingColor)!important;  
 }
 
 .side-8zPYf6 .header-2RyJ0Y {
