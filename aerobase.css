@@ -1,7 +1,7 @@
 :root {
         --title: 'ÆroSpace';
-        --logo: url(https://cdn.discordapp.com/attachments/476154188494143498/675832706386362398/ALPHA4.gif);
-        --background: url(https://cdn.discordapp.com/attachments/476154188494143498/680898001346363415/appear.jpg);
+        --logo: url("https://goldenlys.github.io/ThemeGen/img/ELYSIA.gif");
+        --background: url("https://goldenlys.github.io/ThemeGen/img/bg.jpg");
         --font: 'Quicksand';
         --Primary: rgb(130, 0, 216);
         --animation: var(--Primary), rgb(0, 225, 255);
@@ -10,10 +10,10 @@
         --Idle: rgb(0, 99, 156);
         --Unavailable: rgb(228, 15, 0);
         --Offline: rgb(90, 95, 100);
-        --Playing: url(https://cdn.discordapp.com/attachments/476154188494143498/680898006937370645/provenance.jpg);
-        --Xbox: url(https://cdn.discordapp.com/attachments/476154188494143498/680898003246252176/energyunion.jpg);
-        --Spotify: url(https://cdn.discordapp.com/attachments/476154188494143498/680898009122340937/spacestorm.jpg);
-        --Streaming: url(https://cdn.discordapp.com/attachments/476154188494143498/680897535828557844/aldebaran.jpg);
+        --Playing: url("https://goldenlys.github.io/ThemeGen/img/playing.jpg");
+        --Xbox: url("https://goldenlys.github.io/ThemeGen/img/xbox.jpg");
+        --Spotify: url("https://goldenlys.github.io/ThemeGen/img/spotify.jpg");
+        --Streaming: url("https://goldenlys.github.io/ThemeGen/img/twitch.jpg");
         --grey: rgb(77, 70, 85);
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
@@ -68,8 +68,6 @@
         --background-tertiary: var(--grey);
         --background-accent: var(--grey);
         --background-floating: var(--darkgrey5);
-        --background-mobile-primary: #36393f;
-        --background-mobile-secondary: #2f3136;
         --background-modifier-hover: rgba(79, 84, 92, 0.16);
         --background-modifier-active: var(--darkgrey5);
         --background-modifier-selected: rgba(79, 84, 92, 0.32);
@@ -985,8 +983,9 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 .privateChannels-1nO12o>div>div>span>a>div>.avatar-3uk_u9>div>svg>foreignObject, div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
         fill: var(--Offline)!important;
 }
+
 .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], rect[fill="#593695"] {
-      fill: var(--StreamingColor)!important;  
+        fill: var(--StreamingColor)!important;
 }
 
 .side-8zPYf6 .header-2RyJ0Y {
@@ -1620,40 +1619,6 @@ button[style="font-family: glue1-spoticon;"] {
         filter: blur(.15em);
 }
 
-.modal-3c3bKg .header-QKLPzZ .headerInfo-30uryT {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        right: 20px;
-        padding-right: 0;
-}
-
-.modal-3c3bKg .listRow-hutiT_ {
-        display: inline-flex;
-}
-
-.modal-3c3bKg .header-QKLPzZ>div:nth-child(4) {
-        position: absolute;
-        top: 105px;
-        left: 20px;
-        width: 80px;
-        height: 25px;
-        background: center / contain no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/706278641121755206/usertools.png);
-}
-
-.modal-3c3bKg .header-QKLPzZ .avatar-3EQepX {
-        position: absolute;
-        top: 20px;
-}
-
-.modal-3c3bKg .header-QKLPzZ button {
-        display: flex;
-        float: right;
-        text-shadow: 0 0 3px;
-        height: 80px;
-        margin: -20px 5px 0 5px;
-}
-
 .topSectionNormal-2-vo2m:after, .topSectionStreaming-1Tpf5X:after, .topSectionSpotify-1lI0-P:after, .topSectionXbox-3fWLjS:after, .topSectionPlaying-1J5E4n:after {
         content: "";
         height: 10px;
@@ -1926,11 +1891,6 @@ a.channel-2QD9_O {
         text-align: center;
         width: 100%;
         height: 100%;
-}
-
-.modal-3c3bKg .header-QKLPzZ {
-        display: block;
-        padding: 40px 20px;
 }
 
 .unread-1xRYoj {
@@ -2449,7 +2409,7 @@ button[role*="switch"]:after {
 
 #bd-pub-button {
         border-radius: .25em;
-        background: url(https://cdn.discordapp.com/attachments/476154188494143498/706213608387772496/public.png);
+        background: url(https://goldenlys.github.io/ThemeGen/img/public.png);
         color: #ffffff;
         font-size: 12px;
         background-size: 90% 90%;
@@ -2474,7 +2434,7 @@ button[role*="switch"]:after {
         content: "";
         width: 25px;
         height: 25px;
-        content: url(https://cdn.discordapp.com/attachments/476154188494143498/706277579920769055/view.png);
+        content: url(https://goldenlys.github.io/ThemeGen/img/view.png);
 }
 
 .lookFilled-1h1y05.select-1Pkeg4, .input-cIJ7To {
@@ -2601,24 +2561,24 @@ polyline[stroke='#f04747'] {
 
 .audioMetadata-3zOuGv .metadataDownload-1fk90V, .downloadButton-23tKQp {
         width: auto;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706174112250462259/download.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/download.png");
 }
 
 .attachmentInner-3vEpKt+a {
         width: 25px;
         height: 25px;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/706174112250462259/download.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/download.png");
 }
 
 /* CODE ICON */
 
 img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
         width: auto;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/707253621221228595/text-text.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/text.png");
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX, .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
-        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/707253621221228595/text-text.png");
+        background: center / contain no-repeat url("https://goldenlys.github.io/ThemeGen/img/text.png");
         margin-right: 5px
 }
 
@@ -2626,11 +2586,11 @@ img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], img[src="/assets/481aa7
 
 img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
         width: auto;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/707255333390778408/text-empty.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/text-empty.png");
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
-        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/707255333390778408/text-empty.png");
+        background: center / contain no-repeat url("https://goldenlys.github.io/ThemeGen/img/text-empty.png");
         margin-right: 5px
 }
 
@@ -2638,11 +2598,11 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"] {
 
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         width: auto;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/707253703144505385/text-A.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/text-A.png");
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/707253703144505385/text-A.png");
+        background: center / contain no-repeat url("https://goldenlys.github.io/ThemeGen/img/text-A.png");
         margin-right: 5px
 }
 
@@ -2650,11 +2610,11 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .audioMetadata-3zOuGv:before {
         width: 30px;
-        content: url("https://cdn.discordapp.com/attachments/476154188494143498/707256632177983538/text-music2.png");
+        content: url("https://goldenlys.github.io/ThemeGen/img/music.png");
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq {
-        background: center / contain no-repeat url("https://cdn.discordapp.com/attachments/476154188494143498/707253634727018496/text-musi.png");
+        background: center / contain no-repeat url("https://goldenlys.github.io/ThemeGen/img/music-big.png");
         margin-right: 5px
 }
 
@@ -2928,7 +2888,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 15px;
         left: 6.5px;
         z-index: 1;
-        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727639422245404742/tumblr_nbazwz2v7C1txeruoo1_r1_500.gif) !important;
+        background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif") !important;
 }
 
 .container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .guildIconContainer-E1JUVt {
@@ -2976,7 +2936,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 0;
         left: 0;
         right: 0;
-        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727526059314118686/header.png) !important;
+        background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/BD-Header.png") !important;
 }
 
 .container-PNkimc[aria-label*="BetterDiscord"] .container-2Rl01u::after {
@@ -2989,7 +2949,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 15px;
         left: 6.5px;
         z-index: 1;
-        background: center / cover no-repeat url(https://cdn.discordapp.com/attachments/476154188494143498/727524760203952189/BetterDiscord.png) !important;
+        background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/BD-Logo.png") !important;
 }
 
 .container-PNkimc[aria-label*="BetterDiscord"] .guildIconContainer-E1JUVt {
@@ -3333,4 +3293,48 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         -webkit-background-clip: text!important;
         background-clip: text!important;
         -webkit-text-fill-color: transparent!important;
+}
+
+.modal-3c3bKg .header-QKLPzZ {
+        position: relative;
+        display: inline-flex;
+        padding: 1rem 0 1rem 2rem;
+        width: calc(100% - 2rem);
+}
+
+.modal-3c3bKg .header-QKLPzZ .avatar-3EQepX {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100px !important;
+        height: 100px !important;
+}
+
+.modal-3c3bKg .header-QKLPzZ .headerInfo-30uryT {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding-right: 0;
+}
+
+.modal-3c3bKg .header-QKLPzZ button {
+        display: flex;
+        float: right;
+        text-shadow: 0 0 3px;
+        height: 100px;
+        margin: 0 0 0 1rem;
+        border-radius: 5px;
+}
+
+.modal-3c3bKg .header-QKLPzZ>div:nth-child(4) {
+        position: absolute;
+        top: 8rem;
+        left: 2rem;
+        width: 6.25rem;
+        height: 1.5rem;
+        background: center / contain no-repeat url(https://goldenlys.github.io/ThemeGen/img/usertools.png);
+}
+
+.modal-3c3bKg .listRow-hutiT_ {
+        display: inline-flex;
 }
